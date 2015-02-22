@@ -7,7 +7,7 @@
  *
  * By @Flathemes <info@flathemes.com>
  *
- * Last modify time: 2015-01-31
+ * Last modify time: 2015-02-22
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
@@ -3953,67 +3953,67 @@ th {
   }
 
 .navbar-inverse {
-  background-color: #333;
-  border-color: #333;
+  background-color: #92cf94;
+  border-color: #92cf94;
   }
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-link, .navbar-inverse .btn-link {
-  color: #8c8c8c;
+  color: white;
   }
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-link:hover, .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
   color: #666;
   background-color: transparent;
   }
 .navbar-inverse .navbar-text, .navbar-inverse .navbar-nav > li > a {
-  color: #8c8c8c;
+  color: white;
   }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
   color: #666;
   }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   color: #666;
-  background-color: #000;
+  background-color: #4caf50;
   }
 .navbar-inverse .btn-link[disabled]:hover, fieldset[disabled] .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:focus, .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
-  color: #666;
+  color: #d9eeda;
   background-color: transparent;
   }
 .navbar-inverse .navbar-toggle {
-  background-color: #000;
-  border-color: #000;
+  background-color: #4caf50;
+  border-color: #4caf50;
   }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-  background-color: #1a1a1a;
-  border-color: #1a1a1a;
+  background-color: #6ec071;
+  border-color: #6ec071;
   }
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #8c8c8c;
+  background-color: white;
   }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-  border-color: #000;
+  border-color: #4caf50;
   }
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
   color: #666;
-  background-color: #000;
+  background-color: #4caf50;
   }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    background-color: #000;
+    background-color: #4caf50;
     }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .divider {
-    background-color: #000;
+    background-color: #4caf50;
     }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #8c8c8c;
+    color: white;
     }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #666;
-    background-color: #000;
+    background-color: #4caf50;
     }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    color: #bfbfbf;
+    color: white;
     }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-    color: #666;
+    color: #d9eeda;
     }
   }
 
