@@ -79,7 +79,7 @@ $navbar-inverse-background-color:            $garlic-dark !default;
       & .navbar-form {
           border-color: $navbar-item-background-color-hover;
       }
-      
+
 
       & .navbar-nav > .open > a,
       & .navbar-nav > .open > a:hover,
@@ -120,8 +120,8 @@ $navbar-inverse-background-color:            $garlic-dark !default;
 
   .navbar-inverse {
       & {
-          background-color: lighten($navbar-inverse-background-color, 20%);
-          border-color: lighten($navbar-inverse-background-color, 20%);
+          background-color: $navbar-inverse-background-color;
+          border-color: $navbar-inverse-background-color;
       }
       & .navbar-brand,
       & .navbar-link,
