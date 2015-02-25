@@ -4020,6 +4020,9 @@ th {
   background-color: #4caf50;
   border: none;
   }
+.navbar-inverse .dropdown-menu li a {
+  color: #fff;
+  }
 .navbar-inverse .dropdown-menu li a:hover, .navbar-inverse .dropdown-menu li a:focus, .navbar-inverse .dropdown-menu .active a, .navbar-inverse .dropdown-menu .active a:hover, .navbar-inverse .dropdown-menu .active a:focus {
   color: #fff;
   background-color: #81c784;

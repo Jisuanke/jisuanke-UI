@@ -215,6 +215,9 @@ $navbar-inverse-background-color:            $garlic-dark !default;
       .dropdown-menu {
           border: none;
           background-color: $navbar-background-color-active;
+          & li a {
+              color: $white;
+          }
           & li a:hover,
           & li a:focus,
           & .active a,
