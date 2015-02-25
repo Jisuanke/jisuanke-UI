@@ -138,16 +138,16 @@ $navbar-inverse-background-color:            $garlic-dark !default;
       }
       & .navbar-text,
       & .navbar-nav > li > a {
-          color: lighten($navbar-inverse-background-color, 35%);
+          color: lighten($navbar-inverse-background-color, 45%);
       }
       & .navbar-nav > li > a:hover,
       & .navbar-nav > li > a:focus {
-          color: lighten($navbar-inverse-background-color, 55%);
+          color: lighten($navbar-inverse-background-color, 65%);
       }
       & .navbar-nav > .active > a,
       & .navbar-nav > .active > a:hover,
       & .navbar-nav > .active > a:focus {
-          color: lighten($navbar-inverse-background-color, 55%);
+          color: lighten($navbar-inverse-background-color, 65%);
           background-color: $navbar-inverse-background-color;
       }
       & .btn-link[disabled]:hover,
@@ -157,7 +157,7 @@ $navbar-inverse-background-color:            $garlic-dark !default;
       & .navbar-nav > .disabled > a,
       & .navbar-nav > .disabled > a:hover,
       & .navbar-nav > .disabled > a:focus {
-          color: lighten($navbar-inverse-background-color, 40%);
+          color: lighten($navbar-inverse-background-color, 60%);
           background-color: transparent;
       }
       & .navbar-toggle {
@@ -179,7 +179,7 @@ $navbar-inverse-background-color:            $garlic-dark !default;
       & .navbar-nav > .open > a,
       & .navbar-nav > .open > a:hover,
       & .navbar-nav > .open > a:focus {
-          color: lighten($navbar-inverse-background-color, 55%);
+          color: lighten($navbar-inverse-background-color, 65%);
           background-color: $navbar-inverse-background-color;
       }
 
@@ -215,6 +215,25 @@ $navbar-inverse-background-color:            $garlic-dark !default;
       .dropdown-menu {
           border: none;
           background-color: $navbar-background-color-active;
+          & li a:hover,
+          & li a:focus,
+          & .active a,
+          & .active a:hover,
+          & .active a:focus{
+              color: $white;
+              background-color: $garlic-light;
+              outline: none;
+          }
+          & .disabled a,
+          & .disabled a:hover,
+          & .disabled a:focus {
+              color: lighten($white, 40%);
+              cursor: default;
+          }
+          & .divider {
+              background-color: $white;
+              border-bottom: none;
+          }
       }
   }
   @media (max-width: 768px) {

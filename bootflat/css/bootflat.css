@@ -3964,7 +3964,7 @@ th {
   background-color: transparent;
   }
 .navbar-inverse .navbar-text, .navbar-inverse .navbar-nav > li > a {
-  color: #c7e7c8;
+  color: #eaf6eb;
   }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
   color: white;
@@ -3974,7 +3974,7 @@ th {
   background-color: #4caf50;
   }
 .navbar-inverse .btn-link[disabled]:hover, fieldset[disabled] .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:focus, .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
-  color: #d9eeda;
+  color: white;
   background-color: transparent;
   }
 .navbar-inverse .navbar-toggle {
@@ -4019,6 +4019,19 @@ th {
 .navbar-inverse .dropdown-menu {
   background-color: #4caf50;
   border: none;
+  }
+.navbar-inverse .dropdown-menu li a:hover, .navbar-inverse .dropdown-menu li a:focus, .navbar-inverse .dropdown-menu .active a, .navbar-inverse .dropdown-menu .active a:hover, .navbar-inverse .dropdown-menu .active a:focus {
+  color: #fff;
+  background-color: #81c784;
+  outline: none;
+  }
+.navbar-inverse .dropdown-menu .disabled a, .navbar-inverse .dropdown-menu .disabled a:hover, .navbar-inverse .dropdown-menu .disabled a:focus {
+  color: white;
+  cursor: default;
+  }
+.navbar-inverse .dropdown-menu .divider {
+  background-color: #fff;
+  border-bottom: none;
   }
 
 @media (max-width: 768px) {
