@@ -227,18 +227,18 @@ $navbar-inverse-background-color:            $garlic-dark !default;
           & .active a,
           & .active a:hover,
           & .active a:focus{
-              color: $white;
+              color: lighten($navbar-inverse-background-color, 55%);
               background-color: $garlic-light;
               outline: none;
           }
           & .disabled a,
           & .disabled a:hover,
           & .disabled a:focus {
-              color: lighten($white, 40%);
+              color: lighten($navbar-inverse-background-color, 55%);
               cursor: default;
           }
           & .divider {
-              background-color: $white;
+              background-color: lighten($navbar-inverse-background-color, 55%);
               border-bottom: none;
           }
       }

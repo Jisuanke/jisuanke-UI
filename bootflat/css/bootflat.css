@@ -4028,7 +4028,7 @@ th {
   padding-left: 20px;
   }
 .navbar-inverse .dropdown-menu li a:hover, .navbar-inverse .dropdown-menu li a:focus, .navbar-inverse .dropdown-menu .active a, .navbar-inverse .dropdown-menu .active a:hover, .navbar-inverse .dropdown-menu .active a:focus {
-  color: #fff;
+  color: white;
   background-color: #81c784;
   outline: none;
   }
@@ -4037,7 +4037,7 @@ th {
   cursor: default;
   }
 .navbar-inverse .dropdown-menu .divider {
-  background-color: #fff;
+  background-color: white;
   border-bottom: none;
   }
 
