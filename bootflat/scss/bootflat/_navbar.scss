@@ -138,7 +138,7 @@ $navbar-inverse-background-color:            $garlic-dark !default;
       }
       & .navbar-text,
       & .navbar-nav > li > a {
-          color: lighten($navbar-inverse-background-color, 55%);
+          color: lighten($navbar-inverse-background-color, 35%);
       }
       & .navbar-nav > li > a:hover,
       & .navbar-nav > li > a:focus {
@@ -179,7 +179,7 @@ $navbar-inverse-background-color:            $garlic-dark !default;
       & .navbar-nav > .open > a,
       & .navbar-nav > .open > a:hover,
       & .navbar-nav > .open > a:focus {
-          color: $navbar-font-color;
+          color: lighten($navbar-inverse-background-color, 55%);
           background-color: $navbar-inverse-background-color;
       }
 

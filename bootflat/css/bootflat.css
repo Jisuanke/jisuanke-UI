@@ -3964,7 +3964,7 @@ th {
   background-color: transparent;
   }
 .navbar-inverse .navbar-text, .navbar-inverse .navbar-nav > li > a {
-  color: white;
+  color: #c7e7c8;
   }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
   color: white;
@@ -3992,7 +3992,7 @@ th {
   border-color: #4caf50;
   }
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-  color: #666;
+  color: white;
   background-color: #4caf50;
   }
 @media (max-width: 767px) {
