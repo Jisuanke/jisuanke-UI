@@ -7,7 +7,7 @@
  *
  * By @Flathemes <info@flathemes.com>
  *
- * Last modify time: 2015-02-24
+ * Last modify time: 2015-02-25
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
@@ -4015,6 +4015,10 @@ th {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #d9eeda;
     }
+  }
+.navbar-inverse .dropdown-menu {
+  background-color: #4caf50;
+  border: none;
   }
 
 @media (max-width: 768px) {

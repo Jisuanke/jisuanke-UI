@@ -211,6 +211,11 @@ $navbar-inverse-background-color:            $garlic-dark !default;
               color: lighten($navbar-inverse-background-color, 40%);
           }
       }
+
+      .dropdown-menu {
+          border: none;
+          background-color: $navbar-background-color-active;
+      }
   }
   @media (max-width: 768px) {
   .jsk-navbar-coll {
