@@ -43,7 +43,96 @@ $popover-title-font-color:               $darkgray-dark !default;
       &.left .arrow:after {
           border-left-color: $popover-background-color;
       }
+      .popover-header .popover-title{
+        margin:0;
+        line-height:30px;
+        margin-right: 15px;
+      }
+      .popover-header .close{
+        margin-right: 15px;
+      }
+      .popover-footer{
+          text-align: center;
+      }
+      .popover-footer .btn, .popover-footer .btn:hover{
+          color: #fff;
+      }
+      .popover-footer .btn-link{
+          color: #000;
+          filter: alpha(opacity=65);
+          opacity: .65;
+        }
+      .popover-footer .btn-link:focus, .popover-footer .btn-link:hover{
+          color: #000;
+          filter: alpha(opacity=65);
+          opacity: .45;
+        }
   }
+  .acenter {
+    text-align:center;
+    word-wrap: break-word;
+  }
+
+  .popover-success{
+      background-color: #c5e1a5;
+      border-color: #c5e1a5;
+
+      .popover-title{
+         color:#3c763d;
+      }
+      .popover-content{
+          color:#3c763d;
+          opacity: 0.7;
+      }
+      &.right .arrow:after {
+        border-right-color: #c5e1a5;
+      }
+      &.right .arrow, &.right .arrow:after {
+        border-right-color: #c5e1a5;
+      }
+  }
+
+
+  .popover-warning{
+      background-color: #ffe082;
+      border-color: #ffe082;
+
+      .popover-title{
+         color:#8a6d3b;
+      }
+      .popover-content{
+          color:#8a6d3b;
+          opacity: 0.7;
+      }
+      &.right .arrow:after {
+        border-right-color: #ffe082;
+      }
+      &.right .arrow, &.right .arrow:after {
+        border-right-color: #ffe082;
+      }
+  }
+
+
+
+  .popover-danger{
+      background-color: #ffab91;
+      border-color: #ffab91;
+
+      .popover-title{
+         color:#a94442;
+      }
+      .popover-content{
+          color:#a94442;
+          opacity: 0.7;
+      }
+      &.right .arrow:after {
+        border-right-color: #ffab91;
+      }
+      &.right .arrow, &.right .arrow:after {
+        border-right-color: #ffab91;
+      }
+  }
+
 
 }
 

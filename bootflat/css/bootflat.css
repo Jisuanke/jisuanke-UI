@@ -7,7 +7,7 @@
  *
  * By @Flathemes <info@flathemes.com>
  *
- * Last modify time: 2015-02-25
+ * Last modify time: 2015-03-12
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
@@ -2571,6 +2571,89 @@
   }
 .popover.left .arrow, .popover.left .arrow:after {
   border-left-color: #607d8b;
+  }
+.popover .popover-header .popover-title {
+  margin: 0;
+  margin-right: 15px;
+  line-height: 30px;
+  }
+.popover .popover-header .close {
+  margin-right: 15px;
+  }
+.popover .popover-footer {
+  text-align: center;
+  }
+.popover .popover-footer .btn, .popover .popover-footer .btn:hover {
+  color: #fff;
+  }
+.popover .popover-footer .btn-link {
+  color: #000;
+  filter: alpha(opacity=65);
+  opacity: .65;
+  }
+.popover .popover-footer .btn-link:focus, .popover .popover-footer .btn-link:hover {
+  color: #000;
+  filter: alpha(opacity=65);
+  opacity: .45;
+  }
+
+.acenter {
+  text-align: center;
+  word-wrap: break-word;
+  }
+
+.popover-success {
+  background-color: #c5e1a5;
+  border-color: #c5e1a5;
+  }
+.popover-success .popover-title {
+  color: #3c763d;
+  }
+.popover-success .popover-content {
+  color: #3c763d;
+  opacity: .7;
+  }
+.popover-success.right .arrow:after {
+  border-right-color: #c5e1a5;
+  }
+.popover-success.right .arrow, .popover-success.right .arrow:after {
+  border-right-color: #c5e1a5;
+  }
+
+.popover-warning {
+  background-color: #ffe082;
+  border-color: #ffe082;
+  }
+.popover-warning .popover-title {
+  color: #8a6d3b;
+  }
+.popover-warning .popover-content {
+  color: #8a6d3b;
+  opacity: .7;
+  }
+.popover-warning.right .arrow:after {
+  border-right-color: #ffe082;
+  }
+.popover-warning.right .arrow, .popover-warning.right .arrow:after {
+  border-right-color: #ffe082;
+  }
+
+.popover-danger {
+  background-color: #ffab91;
+  border-color: #ffab91;
+  }
+.popover-danger .popover-title {
+  color: #a94442;
+  }
+.popover-danger .popover-content {
+  color: #a94442;
+  opacity: .7;
+  }
+.popover-danger.right .arrow:after {
+  border-right-color: #ffab91;
+  }
+.popover-danger.right .arrow, .popover-danger.right .arrow:after {
+  border-right-color: #ffab91;
   }
 
 /**
