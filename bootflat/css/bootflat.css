@@ -2581,6 +2581,7 @@
   margin-right: 15px;
   }
 .popover .popover-footer {
+  padding-left: 10px;
   text-align: center;
   }
 .popover .popover-footer .btn, .popover .popover-footer .btn:hover {
