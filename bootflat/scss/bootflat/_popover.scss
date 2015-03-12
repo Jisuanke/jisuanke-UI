@@ -19,7 +19,6 @@ $popover-title-font-color:               $darkgray-dark !default;
       background-color: $popover-background-color;
       color: $popover-font-color;
       border-color: $popover-background-color;
-
       @at-root &-title {
           padding-bottom: 0;
           font-weight: bold;
@@ -53,6 +52,8 @@ $popover-title-font-color:               $darkgray-dark !default;
       }
       .popover-footer{
           text-align: center;
+          padding-left: 10px;
+
       }
       .popover-footer .btn, .popover-footer .btn:hover{
           color: #fff;
