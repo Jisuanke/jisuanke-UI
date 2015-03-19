@@ -7,7 +7,7 @@
  *
  * By @Flathemes <info@flathemes.com>
  *
- * Last modify time: 2015-03-12
+ * Last modify time: 2015-03-19
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
@@ -2549,6 +2549,7 @@
  * --------------------------------------------------
  */
 .popover {
+  padding-bottom: 5px;
   color: #fff;
   background-color: #607d8b;
   border-color: #607d8b;
@@ -2572,10 +2573,12 @@
 .popover.left .arrow, .popover.left .arrow:after {
   border-left-color: #607d8b;
   }
+.popover .popover-header {
+  padding: 5px 0;
+  }
 .popover .popover-header .popover-title {
   margin: 0;
   margin-right: 15px;
-  line-height: 30px;
   }
 .popover .popover-header .close {
   margin-right: 15px;
