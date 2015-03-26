@@ -1,12 +1,12 @@
 body {
   position: relative; /* For scrollyspy */
   /*font-family: 'Lato', sans-serif !important;*/
-  font-family: 'Lantinghei SC', 'FZLanTingHei-R-GBK', 'Microsoft YaHei', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: 'Lantinghei SC', 'Microsoft YaHei', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   /*font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   /*font-family: 'Lato', sans-serif !important;*/
-  font-family: 'Lantinghei SC', 'FZLanTingHei-R-GBK', 'Microsoft YaHei', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: 'Lantinghei SC', 'Microsoft YaHei', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 /* ----------------------------------
  * home
