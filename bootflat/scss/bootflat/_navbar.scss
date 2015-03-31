@@ -91,7 +91,7 @@ $navbar-inverse-background-color:            $garlic-dark !default;
       @media (max-width: 767px) {
           & .navbar-nav > li > a:hover,
           & .navbar-nav > li > a:focus {
-              background-color: $navbar-background-color-active;
+              background-color: $white;
           }
           & .navbar-nav .open .dropdown-menu > .divider {
               background-color: $navbar-item-background-color-hover;

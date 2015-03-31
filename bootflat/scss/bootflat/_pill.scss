@@ -16,6 +16,9 @@ $pill-font-color-hover:               $mushroom-dark !default;
    * --------------------------------------------------
    */
   .nav-pills {
+      & > li {
+          margin-right: 14px;
+      }
       & > li.active > a,
       & > li.active > a:hover,
       & > li.active > a:focus {
@@ -24,6 +27,7 @@ $pill-font-color-hover:               $mushroom-dark !default;
       }
       & > li > a {
           color: $pill-background-color;
+          padding: 10px 25px;
       }
       & > li > a:hover {
           color: $pill-font-color-hover;
