@@ -16,6 +16,9 @@ $pill-font-color-active:              $white !default;
    * --------------------------------------------------
    */
   .nav-pills {
+      & > li {
+          margin-right: 14px;
+      }
       & > li.active > a,
       & > li.active > a:hover,
       & > li.active > a:focus {
@@ -23,23 +26,22 @@ $pill-font-color-active:              $white !default;
           background-color: $pill-background-color;
       }
       & > li > a {
+          padding: 10px 25px;
           color: $pill-background-color;
       }
       & > li > a:hover {
-          color: $pill-font-color;    
+          color: $pill-font-color;
           background-color: $pill-background-color-hover;
       }
       & > .active > a > .badge {
-          color: $pill-background-color;    
+          color: $pill-background-color;
       }
-      & .open > a, 
-      & .open > a:focus, 
+      & .open > a,
+      & .open > a:focus,
       & .open > a:hover {
           color: $pill-font-color;
-          background-color: $pill-background-color-hover;        
+          background-color: $pill-background-color-hover;
       }
   }
 
 }
-
-
