@@ -43,8 +43,7 @@ $dropdown-font-weight:                    700 !default;
       & .active a,
       & .active a:hover,
       & .active a:focus{
-          color: $dropdown-font-color-light;
-          background-color: $dropdown-background-color-hover;
+          color: #666;
           outline: none;
       }
       & .disabled a,
