@@ -16,10 +16,13 @@ $popover-title-font-color:               $darkgray-dark !default;
    */
 
   .popover {
-      background-color: $popover-background-color;
-      color: $popover-font-color;
-      border-color: $popover-background-color;
+      background-color: $white;
+      color: #333;
+      border-color: $white;
       padding-bottom: 5px;
+      a:hover{
+        color:$mushroom-light
+      }
       @at-root &-title {
           padding-bottom: 0;
           font-weight: bold;
@@ -29,19 +32,19 @@ $popover-title-font-color:               $darkgray-dark !default;
       }
       &.top .arrow,
       &.top .arrow:after {
-          border-top-color: $popover-background-color;
+          border-top-color: $white;
       }
       &.right .arrow,
       &.right .arrow:after {
-          border-right-color: $popover-background-color;
+          border-right-color: $white;
       }
       &.bottom .arrow,
       &.bottom .arrow:after {
-          border-bottom-color: $popover-background-color;
+          border-bottom-color: $white;
       }
       &.left .arrow,
       &.left .arrow:after {
-          border-left-color: $popover-background-color;
+          border-left-color: $white;
       }
       .popover-header {
           padding:5px 0;

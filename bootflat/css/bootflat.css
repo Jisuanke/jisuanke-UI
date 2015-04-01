@@ -7,7 +7,7 @@
  *
  * By @Flathemes <info@flathemes.com>
  *
- * Last modify time: 2015-03-27
+ * Last modify time: 2015-04-01
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
@@ -2550,9 +2550,12 @@
  */
 .popover {
   padding-bottom: 5px;
-  color: #fff;
-  background-color: #607d8b;
-  border-color: #607d8b;
+  color: #333;
+  background-color: #fff;
+  border-color: #fff;
+  }
+.popover a:hover {
+  color: #90a4ae;
   }
 .popover-title {
   padding-bottom: 0;
@@ -2562,16 +2565,16 @@
   border-bottom: none;
   }
 .popover.top .arrow, .popover.top .arrow:after {
-  border-top-color: #607d8b;
+  border-top-color: #fff;
   }
 .popover.right .arrow, .popover.right .arrow:after {
-  border-right-color: #607d8b;
+  border-right-color: #fff;
   }
 .popover.bottom .arrow, .popover.bottom .arrow:after {
-  border-bottom-color: #607d8b;
+  border-bottom-color: #fff;
   }
 .popover.left .arrow, .popover.left .arrow:after {
-  border-left-color: #607d8b;
+  border-left-color: #fff;
   }
 .popover .popover-header {
   padding: 5px 0;
