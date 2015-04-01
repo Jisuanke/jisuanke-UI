@@ -2592,7 +2592,7 @@
   margin-right: 15px;
   }
 .popover .popover-footer {
-  padding-left: 10px;
+  padding: 0 10px;
   text-align: center;
   }
 .popover .popover-footer .btn, .popover .popover-footer .btn:hover {
@@ -4121,7 +4121,7 @@ th {
   }
 .navbar-inverse .dropdown-menu li a {
   padding-left: 28px;
-  color: #fff;
+  color: #eaf6eb;
   }
 .navbar-inverse .dropdown-menu li a.current {
   padding-left: 20px;
@@ -4908,7 +4908,6 @@ a.list-group-item-danger.active, a.list-group-item-danger:hover, a.list-group-it
  * --------------------------------------------------
  */
 .dropdown-menu {
-  background-color: #607d8b;
   border: none;
   }
 .dropdown-menu .dropdown-header {
