@@ -3,6 +3,7 @@
 $popover-background-color:               $mushroom-dark !default;
 $popover-font-color:                     $white !default;
 $popover-title-font-color:               $darkgray-dark !default;
+$popover-a-color:                         #333;
 
 
 // Exports
@@ -16,12 +17,17 @@ $popover-title-font-color:               $darkgray-dark !default;
    */
 
   .popover {
+      width:240px;
       background-color: $white;
-      color: #333;
+      color: $popover-a-color;
       border-color: $white;
       padding-bottom: 5px;
+      a{
+        color: $popover-a-color;
+      }
       a:hover{
-        color:$mushroom-light
+        color:$mushroom-light;
+        text-decoration:none;
       }
       @at-root &-title {
           padding-bottom: 0;

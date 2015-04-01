@@ -2549,13 +2549,18 @@
  * --------------------------------------------------
  */
 .popover {
+  width: 240px;
   padding-bottom: 5px;
   color: #333;
   background-color: #fff;
   border-color: #fff;
   }
+.popover a {
+  color: #333;
+  }
 .popover a:hover {
   color: #90a4ae;
+  text-decoration: none;
   }
 .popover-title {
   padding-bottom: 0;
@@ -3952,11 +3957,15 @@ th {
  * pill
  * --------------------------------------------------
  */
+.nav-pills > li {
+  margin-right: 14px;
+  }
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: #fff;
   background-color: #90a4ae;
   }
 .nav-pills > li > a {
+  padding: 10px 25px;
   color: #90a4ae;
   }
 .nav-pills > li > a:hover {
@@ -4022,7 +4031,7 @@ th {
   }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: #4caf50;
+    background-color: #fff;
     }
   .navbar-default .navbar-nav .open .dropdown-menu > .divider {
     background-color: #4caf50;
