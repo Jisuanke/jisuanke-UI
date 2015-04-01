@@ -4918,11 +4918,10 @@ a.list-group-item-danger.active, a.list-group-item-danger:hover, a.list-group-it
   }
 .dropdown-menu li a {
   padding: 5px 20px;
-  color: #fff;
+  color: #666;
   }
 .dropdown-menu li a:hover, .dropdown-menu li a:focus, .dropdown-menu .active a, .dropdown-menu .active a:hover, .dropdown-menu .active a:focus {
-  color: #fff;
-  background-color: #90a4ae;
+  color: #666;
   outline: none;
   }
 .dropdown-menu .disabled a, .dropdown-menu .disabled a:hover, .dropdown-menu .disabled a:focus {
