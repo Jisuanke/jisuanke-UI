@@ -26,8 +26,6 @@ $dropdown-font-weight:                    700 !default;
    */
   .dropdown-menu {
       border: none;
-      background-color: $dropdown-background-color;
-
       & .dropdown-header {
           padding: $dropdown-padding;
           font-size: $dropdown-font-size;
