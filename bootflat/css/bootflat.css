@@ -7,7 +7,7 @@
  *
  * By @Flathemes <info@flathemes.com>
  *
- * Last modify time: 2015-04-02
+ * Last modify time: 2015-04-03
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
@@ -4173,7 +4173,6 @@ th {
     }
 
   .jsk-nav .navbar-nav > li > a:hover {
-    color: #607d8b;
     background: none;
     }
 
