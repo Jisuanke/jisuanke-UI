@@ -47,7 +47,8 @@ module.exports = function(grunt) {
             '<%= meta.defaultPath %>/js/jquery.fs.stepper.min.js',
             '<%= meta.defaultPath %>/js/jquery.fs.selecter.min.js',
             'js/application.js',
-            'js/popover.js'
+            'js/popover.js',
+            'js/jstree.min.js'
           ]
         }
       }
@@ -71,9 +72,9 @@ module.exports = function(grunt) {
         files: {
           'css/site.min.css': [
             'css/bootstrap.min.css',
-
             '<%= meta.defaultPath %>/css/<%= pkg.name %>.css',
-            'css/site.css'
+            'css/site.css',
+            'css/jsTreeStyle.min.css'
           ],
           '<%= meta.defaultPath %>/css/<%= pkg.name %>.min.css': '<%= meta.defaultPath %>/css/<%= pkg.name %>.css'
         }
