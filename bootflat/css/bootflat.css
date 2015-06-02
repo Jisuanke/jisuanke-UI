@@ -7,7 +7,7 @@
  *
  * By @Flathemes <info@flathemes.com>
  *
- * Last modify time: 2015-05-26
+ * Last modify time: 2015-06-02
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
@@ -2846,6 +2846,16 @@
 .form-control {
   color: #607d8b;
   border-color: #aab2bd;
+  }
+.form-control.selecter {
+  padding: 5px 0;
+  }
+.form-control.selecter .selecter .selecter-selected {
+  padding: 6px 16px;
+  border: none;
+  }
+.form-control.selecter .selecter.open .selecter-selected {
+  border: none;
   }
 .form-control, .form-control:focus {
   -webkit-box-shadow: none;

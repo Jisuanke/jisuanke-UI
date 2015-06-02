@@ -34,7 +34,16 @@ $search-icon-line-height:          30px !default;
   .form-control {
       color: $form-font-color;
       border-color: $form-normal;
-
+      &.selecter{
+        padding:5px 0;
+        .selecter .selecter-selected{
+          border:none;
+          padding: 6px 16px;
+        }
+        .selecter.open .selecter-selected{
+          border: none;
+        }
+      }
       &,
       &:focus {
           @include box-shadow($value: none);
