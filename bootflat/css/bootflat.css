@@ -7,7 +7,7 @@
  *
  * By @Flathemes <info@flathemes.com>
  *
- * Last modify time: 2015-06-02
+ * Last modify time: 2015-06-03
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
@@ -3092,7 +3092,6 @@
 
 .selecter {
   position: relative;
-  z-index: 1;
   display: block;
   max-width: 100%;
   outline: none;
