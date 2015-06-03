@@ -70,8 +70,6 @@ $selecter-item-selected-border-color:  $mushroom-light !default;
 			}
 		}
 		& .selecter-options {
-			border: 1px solid $selecter-border-color;
-			border-width: 0 1px 1px;
 			@include radius($value: 0 0 $selecter-radius-value $selecter-radius-value);
 			@include box-shadow($value: 0 6px 12px rgba(0,0,0,.175));
 			background-color: $selecter-background-color;
@@ -97,7 +95,6 @@ $selecter-item-selected-border-color:  $mushroom-light !default;
 		}
 		& .selecter-item {
 			background-color: $selecter-background-color;
-			border-bottom: 1px solid $selecter-item-border-color;
 			cursor: pointer;
 			display: block;
 			margin: 0;
