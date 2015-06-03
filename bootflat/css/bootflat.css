@@ -3158,8 +3158,6 @@
   overflow: auto;
   overflow-x: hidden;
   background-color: #fff;
-  border: 1px solid #aab2bd;
-  border-width: 0 1px 1px;
           border-radius: 0 0 4px 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
      -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
@@ -3187,7 +3185,6 @@
   text-overflow: ellipsis;
   cursor: pointer;
   background-color: #fff;
-  border-bottom: 1px solid #e6e9ed;
   }
 .selecter .selecter-item.selected {
   color: #fff;
