@@ -15,6 +15,8 @@
 
 ## Bootflat更新记录：
 
+2015/6/3 version 2.0.7 '添加jstree seleter部分修正'
+
 2014/11/4 version 2.0.4 `support bootstrap 3.3.0`
 
 2014/9/3 version 2.0.4 `add widget: TimeLine`
