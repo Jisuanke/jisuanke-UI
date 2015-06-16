@@ -1,5 +1,6 @@
-# 什么是 JisuankeUI
+# 什么是 JisuankeUI - [计蒜客](http://www.jisuanke.com/)
 
+<img src="http://i.imgur.com/255qNTL.png" width="80" height="80"/>
 计蒜客UI是在Bootflat上定制的用于计蒜客网站的组件及视觉标准。
 
 ## JisuankeUI 更新记录：
@@ -13,7 +14,7 @@
 
 2015/01/18 配色适应计蒜客颜色标准
 
-## Bootflat更新记录：
+## Bootflat 更新记录：
 
 2015/06/03 version 2.0.7 添加`jstree seleter`部分修正
 
