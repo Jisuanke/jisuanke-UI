@@ -188,50 +188,7 @@ module.exports = function(grunt) {
                 }
             }
     },
-    imagemin: {
-        png: {
-            options: {
-                optimizationLevel: 7
-            },
-            files: [
-                {
-                    expand: true,
-                    cwd: './img/',
-                    src: ['**/*.png'],
-                    dest: './img/compressed/',
-                    ext: '.png'
-                }
-            ]
-        },
-        gif: {
-            options: {
-                optimizationLevel: 3
-            },
-            files: [
-                {
-                    expand: true,
-                    cwd: './img/',
-                    src: ['**/*.gif'],
-                    dest: './img/compressed/',
-                    ext: '.gif'
-                }
-            ]
-        },
-        jpg: {
-            options: {
-                progressive: true
-            },
-            files: [
-                {
-                    expand: true,
-                    cwd: './img/',
-                    src: ['**/*.jpg'],
-                    dest: './img/compressed/',
-                    ext: '.jpg'
-                }
-            ]
-        }
-    },
+
    sed: {
       versionNumber: {
         pattern: (function () {
@@ -251,8 +208,7 @@ module.exports = function(grunt) {
   grunt.registerTask('task-css', ['sass', 'csscomb', 'cssmin']);
   grunt.registerTask('task-html', ['htmlmin']);
   grunt.registerTask('task-js', ['uglify']);
-  grunt.registerTask('task-imagemin', ['imagemin']);
-  grunt.registerTask('task', ['clean', 'task-css', 'task-js','task-imagemin']);
+  grunt.registerTask('task', ['clean', 'task-css', 'task-js']);
   grunt.registerTask('build', ['task']);
   grunt.registerTask('default', ['task']);
   grunt.registerTask('check-call', ['csslint', 'validation', 'jshint']);
