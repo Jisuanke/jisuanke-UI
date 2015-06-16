@@ -15,7 +15,7 @@
 
 ## Bootflat更新记录：
 
-2015/06/03 version 2.0.7 `添加jstree seleter部分修正`
+2015/06/03 version 2.0.7 添加`jstree seleter`部分修正
 
 2014/11/04 version 2.0.4 `support bootstrap 3.3.0`
 
