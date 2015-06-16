@@ -4,7 +4,7 @@
     "authors": [
         "flathemes <info@flathemes.com>"
     ],
-    "description": "BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.3.0 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.",
+    "description": "计蒜客UI是在Bootflat上定制的用于计蒜客网站的组件及视觉标准。",
     "repository": {
         "type": "git",
         "url": "https://github.com/bootflat/bootflat.github.io.git"

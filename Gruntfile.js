@@ -13,7 +13,7 @@ module.exports = function(grunt) {
       defaultPath: 'bootflat'
     },
 
-    banner: '/*\n * <%= pkg.name %> <%= pkg.version %>\n' +
+    banner: '/*\n * <%= pkg.name %> Jisuanke-UI \n' +
 		    ' *\n' +
 		    ' * Description: <%= pkg.description %>\n' +
 		    ' *\n' +
