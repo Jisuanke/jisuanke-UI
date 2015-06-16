@@ -1,10 +1,12 @@
 body {
     position: relative;
     /* For scrollyspy */
+    font-family:"Segoe UI",'Helvetica Neue', "Lucida Grande",Helvetica,Arial,"wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",'Microsoft YaHei', 'Open Sans', sans-serif;
     -moz-osx-font-smoothing: grayscale;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     /*font-family: 'Lato', sans-serif !important;*/
+    font-family:"Segoe UI",'Helvetica Neue', "Lucida Grande",Helvetica,Arial,"wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",'Microsoft YaHei', 'Open Sans', sans-serif;
     -moz-osx-font-smoothing: grayscale;
 }
 
