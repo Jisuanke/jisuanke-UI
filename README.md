@@ -7,7 +7,7 @@
 
 2015/01/30 datetimepicker 4.0.2 定制
 
-2015/01/21 timepicker into； 部分bug修改
+2015/01/21 timepicker into; 部分bug修改
 
 2015/01/20 fontawesome 替换 glyphicons
 
@@ -15,21 +15,21 @@
 
 ## Bootflat更新记录：
 
-2015/6/3 version 2.0.7 '添加jstree seleter部分修正'
+2015/06/03 version 2.0.7 `添加jstree seleter部分修正`
 
-2014/11/4 version 2.0.4 `support bootstrap 3.3.0`
+2014/11/04 version 2.0.4 `support bootstrap 3.3.0`
 
-2014/9/3 version 2.0.4 `add widget: TimeLine`
+2014/09/03 version 2.0.4 `add widget: TimeLine`
 
-2014/8/26  add `color picker`, you can make a flat design with it
+2014/08/26  add `color picker`, you can make a flat design with it
 
-2014/7/9 version 2.0.3 `support bootstrap 3.2.0 and Sass 3.3.9, add wigets: Calendar, Pricing`
+2014/07/09 version 2.0.3 `support bootstrap 3.2.0 and Sass 3.3.9, add wigets: Calendar, Pricing`
 
-2014/6/5 version 2.0.2 `add wigets: Toggle, Selecter, Stepper`
+2014/06/05 version 2.0.2 `add wigets: Toggle, Selecter, Stepper`
 
-2014/4/3 version 2.0.1 `support bootstrap 3.1.1`
+2014/04/03 version 2.0.1 `support bootstrap 3.1.1`
 
-2014/3/6 version 2.0.0 `support bootstrap 3.0.1`
+2014/03/06 version 2.0.0 `support bootstrap 3.0.1`
 
 ## LICENSE
 
