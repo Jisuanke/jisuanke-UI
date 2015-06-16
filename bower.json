@@ -7,7 +7,7 @@
     "description": "计蒜客UI是在Bootflat上定制的用于计蒜客网站的组件及视觉标准。",
     "repository": {
         "type": "git",
-        "url": "https://github.com/bootflat/bootflat.github.io.git"
+        "url": "https://github.com/Jisuanke/jisuanke-UI.git"
     },
     "main": [
         "bootflat/css/*",

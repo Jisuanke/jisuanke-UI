@@ -25,7 +25,7 @@ module.exports = function(grunt) {
 		    ' *\n' +
 		    ' * Licensed under the MIT license. Please see LICENSE for more information.\n' +
 		    ' *\n' +
-		    ' * Copyright 2013 FLATHEMES.\n' +
+		    ' * Copyright 2014 Jisuanke.\n' +
 		    ' *\n' +
 		    ' */\n',
 

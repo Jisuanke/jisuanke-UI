@@ -5,6 +5,7 @@
     "author": "Jisuanke",
     "homepage": "https://github.com/Jisuanke/jisuanke-UI",
     "keywords": [
+        "Jisuanke",
         "mobile",
         "html5",
         "css3",
@@ -21,7 +22,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/bootflat/bootflat.github.io.git"
+        "url": "https://github.com/Jisuanke/jisuanke-UI.git"
     },
     "devDependencies": {
         "grunt": "^0.4.5",
