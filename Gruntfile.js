@@ -88,7 +88,6 @@ module.exports = function(grunt) {
         options: {
           banner: '<%= banner %>',
           style: 'expanded',
-          sourcemap: 'auto'
         }
       }
     },

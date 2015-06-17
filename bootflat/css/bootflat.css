@@ -1,17 +1,17 @@
 /*
- * bootflat 2.0.9
+ * bootflat Jisuanke-UI 
  *
- * Description: BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.3.0 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.
+ * Description: 计蒜客UI是在Bootflat上定制的用于计蒜客网站的组件及视觉标准。
  *
- * Homepage: http://bootflat.github.com/
+ * Homepage: https://github.com/Jisuanke/jisuanke-UI
  *
- * By @Flathemes <info@flathemes.com>
+ * By @Jisuanke
  *
  * Last modify time: 2015-06-16
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
- * Copyright 2013 FLATHEMES.
+ * Copyright 2014 Jisuanke.
  *
  */
 
