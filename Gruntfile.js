@@ -31,7 +31,7 @@ module.exports = function(grunt) {
 
     clean:  {
         fontFolder:'./fonts/',
-    dist: ['<%= meta.defaultPath %>/css/'],
+        dist: ['<%= meta.defaultPath %>/css/'],
     },
     copy: {
         main: {
@@ -226,10 +226,7 @@ module.exports = function(grunt) {
   grunt.registerTask('check-css', ['csslint']);
   grunt.registerTask('check-html', ['validation']);
   grunt.registerTask('check-js', ['jshint']);
-  //grunt.registerTask('grunt-contrib-copy');
 
-  // Version numbering task.
-  // grunt change-version-number --oldver=A.B.C --newver=X.Y.Z
-  // This can be overzealous, so its changes should always be manually reviewed!
+
   grunt.registerTask('change-version-number', 'sed');
 };
