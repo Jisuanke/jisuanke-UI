@@ -7,7 +7,7 @@
  *
  * By @Jisuanke
  *
- * Last modify time: 2015-06-16
+ * Last modify time: 2015-06-18
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
