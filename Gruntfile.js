@@ -33,14 +33,14 @@ module.exports = function(grunt) {
         fontFolder:'./fonts/',
         dist: ['<%= meta.defaultPath %>/css/'],
     },
+
     copy: {
         main: {
-
-      expand: true,
-      src: ['./bower_components/fontawesome/fonts/*'],
-      dest: './fonts/',
-      flatten: true,
-      filter: 'isFile',
+            expand: true,
+            src: ['./bower_components/fontawesome/fonts/*'],
+            dest: './fonts/',
+            flatten: true,
+            filter: 'isFile',
         },
     },
 
