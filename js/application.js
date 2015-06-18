@@ -12,17 +12,17 @@
 
 	$("input[type='number']").stepper();
 
-	$(".selecter_1").selecter();
+	$(".selecter_1").selectpicker();
 
-	$(".selecter_2").selecter();
+	$(".selecter_2").selectpicker();
 
-	$(".selecter_3").selecter();
+	$(".selecter_3").selectpicker();
 
-	$(".selecter_4").selecter();
+	$(".selecter_4").selectpicker();
 
-	$(".selecter_5").selecter();
+	$(".selecter_5").selectpicker();
 
-	$(".selecter_6").selecter();
+	$(".selecter_6").selectpicker();
 
     $('.checkbox input').iCheck({
         checkboxClass: 'icheckbox_flat',

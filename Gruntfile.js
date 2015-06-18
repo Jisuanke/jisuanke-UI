@@ -45,7 +45,7 @@ module.exports = function(grunt) {
             'js/bootstrap.min.js',
             '<%= meta.defaultPath %>/js/icheck.min.js',
             '<%= meta.defaultPath %>/js/jquery.fs.stepper.min.js',
-            '<%= meta.defaultPath %>/js/jquery.fs.selecter.min.js',
+            '<%= meta.defaultPath %>/js/bootstrap-select.min.js',
             'js/application.js',
             'js/popover.js',
             'js/jstree.min.js'
