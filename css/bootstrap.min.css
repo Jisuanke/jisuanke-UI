@@ -92,7 +92,7 @@ pre {
     overflow: auto
 }
 code, kbd, pre, samp {
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace !important;
     font-size: 1em
 }
 button, input, optgroup, select, textarea {
@@ -569,7 +569,7 @@ address {
     line-height: 1.42857143
 }
 code, kbd, pre, samp {
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace !important;
 }
 code {
     padding: 2px 4px;
