@@ -36,7 +36,6 @@ module.exports = function(grunt) {
     copy: {
         main: {
 
-      // includes files within path and its sub-directories
       expand: true,
       src: ['./bower_components/fontawesome/fonts/*'],
       dest: './fonts/',
