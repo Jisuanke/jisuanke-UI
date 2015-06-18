@@ -29,9 +29,21 @@ module.exports = function(grunt) {
 		    ' *\n' +
 		    ' */\n',
 
-    clean: {
-      dist: ['<%= meta.defaultPath %>/css/']
+    clean:  {
+        fontFolder:'./fonts/',
+    dist: ['<%= meta.defaultPath %>/css/'],
     },
+    copy: {
+        main: {
+
+      // includes files within path and its sub-directories
+      src: ['./bower_components/fontawesome/fonts/*'],
+      dest: './fonts/',
+      flatten: true,
+      filter: 'isFile',
+        },
+    },
+
     uglify: {
       options: {
           banner: '<%= banner %>',
@@ -86,7 +98,6 @@ module.exports = function(grunt) {
           '<%= meta.defaultPath %>/css/<%= pkg.name %>.css': '<%= meta.defaultPath %>/scss/<%= pkg.name %>.scss'
         },
         options: {
-          banner: '<%= banner %>',
           style: 'expanded',
         }
       }
@@ -207,13 +218,14 @@ module.exports = function(grunt) {
   grunt.registerTask('task-css', ['sass', 'csscomb', 'cssmin']);
   grunt.registerTask('task-html', ['htmlmin']);
   grunt.registerTask('task-js', ['uglify']);
-  grunt.registerTask('task', ['clean', 'task-css', 'task-js']);
+  grunt.registerTask('task', ['clean', 'task-css', 'task-js','copy']);
   grunt.registerTask('build', ['task']);
   grunt.registerTask('default', ['task']);
   grunt.registerTask('check-call', ['csslint', 'validation', 'jshint']);
   grunt.registerTask('check-css', ['csslint']);
   grunt.registerTask('check-html', ['validation']);
   grunt.registerTask('check-js', ['jshint']);
+  //grunt.registerTask('grunt-contrib-copy');
 
   // Version numbering task.
   // grunt change-version-number --oldver=A.B.C --newver=X.Y.Z

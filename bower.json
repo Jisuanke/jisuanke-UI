@@ -40,5 +40,9 @@
         "index.html",
         "test",
         "tests"
-    ]
+    ],
+    "dependencies": {
+        "fontawesome": "^4.3.0"
+
+    }
 }
