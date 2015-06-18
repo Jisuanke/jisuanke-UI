@@ -92,7 +92,7 @@ pre {
     overflow: auto
 }
 code, kbd, pre, samp {
-    font-family: monospace, monospace;
+    font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
     font-size: 1em
 }
 button, input, optgroup, select, textarea {
