@@ -61,6 +61,10 @@ $zindex-select-dropdown: 1035; // must be lower than a modal background (1040) b
           background-color: #fff;
           color: #607d8b;
         }
+        &.open >.dropdown-menu {
+  			padding:0;
+  			top:106%;
+		}
         &.open .dropdown-toggle.btn-default{
 	  		background-color: #fff;
 		}

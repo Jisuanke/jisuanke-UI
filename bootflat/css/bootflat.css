@@ -3119,6 +3119,10 @@
   color: #607d8b;
   background-color: #fff;
   }
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn).open > .dropdown-menu {
+  top: 106%;
+  padding: 0;
+  }
 .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn).open .dropdown-toggle.btn-default {
   background-color: #fff;
   }
