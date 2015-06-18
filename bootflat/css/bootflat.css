@@ -3105,12 +3105,25 @@
   width: auto !important;
   }
 .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
-  width: 220px;
+  width: 100%;
   }
-.bootstrap-select .dropdown-toggle:focus {
-  outline: thin dotted #333 !important;
-  outline: 5px auto -webkit-focus-ring-color !important;
-  outline-offset: -2px;
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) .btn {
+  font-size: 18px;
+  color: #9b9b9b;
+  border: hidden;
+  }
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn):hover .btn {
+  color: #607d8b;
+  }
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn).open .btn-default.active, .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) .btn-default:active, .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) .btn-default:focus, .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) .btn-default:hover {
+  color: #607d8b;
+  background-color: #fff;
+  }
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn).open .dropdown-toggle.btn-default {
+  background-color: #fff;
+  }
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn).btn-group.open .dropdown-toggle {
+  box-shadow: none;
   }
 
 .bootstrap-select.form-control {
@@ -3201,6 +3214,7 @@
   }
 .bootstrap-select.btn-group .dropdown-menu li a span.text {
   display: inline-block;
+  font-size: 18px;
   }
 .bootstrap-select.btn-group .dropdown-menu li small {
   padding-left: .5em;

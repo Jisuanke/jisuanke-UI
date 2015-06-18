@@ -20,7 +20,7 @@ $selecter-item-selected-border-color:  $mushroom-light !default;
 $color-red-error: rgb(185, 74, 72);
 $color-grey-arrow: rgba(204, 204, 204, 0.2);
 
-$width-default: 220px; // 3 960px-grid columns
+$width-default: 100%; // 3 960px-grid columns
 
 $zindex-select-dropdown: 1035; // must be lower than a modal background (1040) but higher than the fixed navbar (1030)
 // Exports
@@ -37,7 +37,6 @@ $zindex-select-dropdown: 1035; // must be lower than a modal background (1040) b
 	    width: 100%;
 	    padding-right: 25px;
 	  }
-
 	  // Error display
 	  .has-error & .dropdown-toggle,
 	  .error & .dropdown-toggle {
@@ -50,15 +49,26 @@ $zindex-select-dropdown: 1035; // must be lower than a modal background (1040) b
 
 	  &:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
 	    width: $width-default;
-	  }
-
-	  .dropdown-toggle:focus {
-	    outline: thin dotted #333333 !important;
-	    outline: 5px auto -webkit-focus-ring-color !important;
-	    outline-offset: -2px;
+      	.btn{
+        	border:hidden;
+        	font-size: 18px;
+        	color:#9B9B9B;
+      	}
+      	&:hover .btn{
+          color: #607d8b;
+        }
+      	&.open .btn-default.active, .btn-default:active, .btn-default:focus, .btn-default:hover{
+          background-color: #fff;
+          color: #607d8b;
+        }
+        &.open .dropdown-toggle.btn-default{
+	  		background-color: #fff;
+		}
+		&.btn-group.open .dropdown-toggle {
+	  		box-shadow: none;
+		}
 	  }
 	}
-
 	.bootstrap-select.form-control {
 	  margin-bottom: 0;
 	  padding: 0;
@@ -184,6 +194,7 @@ $zindex-select-dropdown: 1035; // must be lower than a modal background (1040) b
 
 	        span.text {
 	          display: inline-block;
+	          font-size: 18px;
 	        }
 	      }
 
@@ -357,4 +368,5 @@ $zindex-select-dropdown: 1035; // must be lower than a modal background (1040) b
 	  height: 100% !important;
 	  opacity: 0;
 	}
+
 }
