@@ -1,10 +1,10 @@
 // Include gulp
 var gulp = require('gulp');
-    jshint = require('gulp-jshint');
-    sass = require('gulp-sass');
-    concat = require('gulp-concat');
-    uglify = require('gulp-uglify');
-    rename = require('gulp-rename');
+    cssmin = require('gulp-cssmin'),
+    sass = require('gulp-sass'),
+    concat = require('gulp-concat'),
+    uglify = require('gulp-uglify'),
+    rename = require('gulp-rename'),
     clean = require('gulp-clean');
 
 var config = {
