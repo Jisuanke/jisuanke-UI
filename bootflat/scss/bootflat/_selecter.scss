@@ -36,9 +36,17 @@ $zindex-select-dropdown: 1035; // must be lower than a modal background (1040) b
 				}
 			}
 		}
+		.chosen-container-active .chosen-single{
+			box-shadow: none;
+			-webkit-box-shadow: none;
+		}
 		.chosen-container {
 			font-size: 18px;
   			padding: 0 16px;
+  			.chosen-results li{
+  				font-size: 18px;
+  				line-height: 20px;
+  			}
 			.chosen-drop{
 				top: 115%;
 				border: none;
