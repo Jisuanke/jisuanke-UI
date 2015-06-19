@@ -57,7 +57,7 @@ module.exports = function(grunt) {
             'js/bootstrap.min.js',
             '<%= meta.defaultPath %>/js/icheck.min.js',
             '<%= meta.defaultPath %>/js/jquery.fs.stepper.min.js',
-            '<%= meta.defaultPath %>/js/bootstrap-select.min.js',
+            '<%= meta.defaultPath %>/js/amazeui.chosen.min.js',
             'js/application.js',
             'js/popover.js',
             'js/jstree.min.js'
@@ -86,6 +86,7 @@ module.exports = function(grunt) {
             'css/bootstrap.min.css',
             '<%= meta.defaultPath %>/css/<%= pkg.name %>.css',
             'css/site.css',
+            'css/amazeui.chosen.min.css',
             'css/jsTreeStyle.min.css'
           ],
           '<%= meta.defaultPath %>/css/<%= pkg.name %>.min.css': '<%= meta.defaultPath %>/css/<%= pkg.name %>.css'
