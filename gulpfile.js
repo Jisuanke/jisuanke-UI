@@ -5,19 +5,28 @@ var gulp = require('gulp');
     concat = require('gulp-concat');
     uglify = require('gulp-uglify');
     rename = require('gulp-rename');
-    
-// Lint Task
-// gulp.task('lint', function() {
-//     return gulp.src('js/*.js')
-//         .pipe(jshint())
-//         .pipe(jshint.reporter('default'));
-// });
+    clean = require('gulp-clean');
+
+var config = {
+    bowerDir: 'bower_components/',
+    defaultPath: 'bootflat/',
+    fontsDir:'fonts/',
+    cssminOptions: {keepSpecialComments: 1},
+    uglifyOptions: {preserveComments: 'some'},
+};
+
+
+//Clean fontawesome
+gulp.task('clean', function() {
+    del([config.fontsDir + '/**/*']);
+});
+
 
 // Compile Our Sass
 gulp.task('sass', function() {
-    return gulp.src('./bootflat/*.scss')
+    return gulp.src('./bootflat/bootflat.scss')
         .pipe(sass())
-        .pipe(gulp.dest('css'));
+        .pipe(gulp.dest('./bootflat/bootflat.scss'));
 });
 
 // Concatenate & Minify JS
