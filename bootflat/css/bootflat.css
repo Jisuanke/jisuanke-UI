@@ -3079,9 +3079,17 @@
 .selecter .chosen-container-single .chosen-single span, .selecter .chosen-container-single.chosen-with-drop .chosen-single span {
   color: #9b9b9b;
   }
+.selecter .chosen-container-active .chosen-single {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  }
 .selecter .chosen-container {
   padding: 0 16px;
   font-size: 18px;
+  }
+.selecter .chosen-container .chosen-results li {
+  font-size: 18px;
+  line-height: 20px;
   }
 .selecter .chosen-container .chosen-drop {
   top: 115%;
