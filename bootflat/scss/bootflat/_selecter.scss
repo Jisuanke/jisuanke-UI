@@ -27,7 +27,7 @@ $zindex-select-dropdown: 1035; // must be lower than a modal background (1040) b
 //------------------------------------------------------
 
 @include exports("selecter") {
-	.select{
+	.selecter{
 		.chosen-container-single, .chosen-container-single.chosen-with-drop {
 			.chosen-single{
 				border: none;
