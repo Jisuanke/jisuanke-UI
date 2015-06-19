@@ -3073,6 +3073,21 @@
   opacity: .45;
   }
 
+.select .chosen-container-single .chosen-single, .select .chosen-container-single.chosen-with-drop .chosen-single {
+  border: none;
+  }
+.select .chosen-container-single .chosen-single span, .select .chosen-container-single.chosen-with-drop .chosen-single span {
+  color: #9b9b9b;
+  }
+.select .chosen-container {
+  padding: 0 16px;
+  font-size: 18px;
+  }
+.select .chosen-container .chosen-drop {
+  top: 115%;
+  border: none;
+  }
+
 /**
  * checkbox and radio
  * --------------------------------------------------

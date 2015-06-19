@@ -27,5 +27,22 @@ $zindex-select-dropdown: 1035; // must be lower than a modal background (1040) b
 //------------------------------------------------------
 
 @include exports("selecter") {
-
+	.select{
+		.chosen-container-single, .chosen-container-single.chosen-with-drop {
+			.chosen-single{
+				border: none;
+				span{
+					color: #9b9b9b;
+				}
+			}
+		}
+		.chosen-container {
+			font-size: 18px;
+  			padding: 0 16px;
+			.chosen-drop{
+				top: 115%;
+				border: none;
+			}
+		}
+	}
 }
