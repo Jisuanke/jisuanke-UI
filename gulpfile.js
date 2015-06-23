@@ -5,7 +5,6 @@ var gulp = require('gulp');
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
     rename = require('gulp-rename'),
-    clean = require('gulp-clean');
 
 var config = {
     bowerDir: 'bower_components/',
