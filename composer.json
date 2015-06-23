@@ -1,7 +1,6 @@
 {
     "name": "bootflat/bootflat",
-    "description": "An open source Flat UI KIT based on Bootstrap (3.3.0). A faster, easier and less repetitive way for web developers to create elegant web apps.",
-    "version": "2.0.4",
+    "description": "计蒜客UI是在Bootflat上定制的用于计蒜客网站的组件及视觉标准。",
     "keywords": [
         "Jisuanke",
         "mobile",
@@ -14,13 +13,13 @@
         "flat ui",
         "ui"
     ],
-    "homepage": "http://bootflat.github.io/",
+    "homepage": "https://github.com/Jisuanke/jisuanke-UI",
     "authors": [{
-        "name": "Bootflat",
-        "email": "info@flathemes.com"
+        "name": "Jisuanke",
+        "email": "pt@jisuanke.com"
     }],
     "support": {
-        "issues": "https://github.com/bootflat/bootflat.github.io/issues"
+        "issues": "https://github.com/Jisuanke/jisuanke-UI/issues"
     },
     "license": "MIT"
 }
