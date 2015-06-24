@@ -108,6 +108,9 @@ $search-icon-line-height:          30px !default;
           padding: 0 $search-query-value;
           @include radius($type: border-radius, $value: $search-query-value);
       }
+      @at-root .input-group .form-control{
+        z-index: auto;
+      }
       @at-root .input-group .form-control:last-child {
           // padding: 0 $search-query-value 0 10px;
           @include radius($type: border-top-left-radius, $value: 0);
