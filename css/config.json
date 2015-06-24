@@ -16,7 +16,7 @@
     "@link-color": "@brand-primary",
     "@link-hover-color": "darken(@link-color, 15%)",
     "@link-hover-decoration": "underline",
-    "@font-family-sans-serif": "\"Segoe UI\", 'Helvetica Neue', \"Lucida Grande\", Helvetica, Arial, \"wenquanyi micro hei\", \"Hiragino Sans GB\", \"Hiragino Sans GB W3\", 'Microsoft YaHei', 'Open Sans', sans-serif",
+    "@font-family-sans-serif": "\"Segoe UI\", 'Helvetica Neue', \"Lucida Grande\", Helvetica, Arial,'Open Sans',\"Hiragino Sans GB\", \"wenquanyi micro hei\",  'Microsoft YaHei', sans-serif",
     "@font-family-serif": "Georgia, \"Times New Roman\", Times, serif",
     "@font-family-monospace": "Menlo, Monaco, Consolas, \"Courier New\", monospace !important",
     "@font-family-base": "@font-family-sans-serif",
