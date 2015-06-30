@@ -323,6 +323,11 @@
     cursor: pointer;
     border-radius: 4px;
 }
+.bootstrap-datetimepicker-widget .datepicker-decades td span {
+    width: auto;
+    height: auto;
+    line-height: 54px;
+}
 .bootstrap-datetimepicker-widget td span:hover { /*time icon*/
     /*background: #eeeeee;*/
 }
