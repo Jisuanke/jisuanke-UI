@@ -32,7 +32,8 @@ module.exports = function(grunt) {
     clean:  {
         fontFolder:'./fonts/',
         dist: ['<%= meta.defaultPath %>/css/'],
-        datetime: './bootstrap-datetimepicker.js'
+        datetime: './js/bootstrap-datetimepicker.js',
+        datetimeMin: './js/bootstrap-datetimepicker.min.js'
     },
 
     copy: {
@@ -45,7 +46,7 @@ module.exports = function(grunt) {
         },
         other: {
             expand: true,
-            src: ['./bower_components/bootstrap-datetimepicker/src/js/*'],
+            src: ['./bower_components/bootstrap-datetimepicker/src/js/*', './bower_components/bootstrap-datetimepicker/build/js/*'],
             dest: './js/',
             flatten: true,
             filter: 'isFile',
