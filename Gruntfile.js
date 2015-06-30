@@ -32,6 +32,7 @@ module.exports = function(grunt) {
     clean:  {
         fontFolder:'./fonts/',
         dist: ['<%= meta.defaultPath %>/css/'],
+        datetime: './bootstrap-datetimepicker.js'
     },
 
     copy: {
@@ -39,6 +40,13 @@ module.exports = function(grunt) {
             expand: true,
             src: ['./bower_components/fontawesome/fonts/*'],
             dest: './fonts/',
+            flatten: true,
+            filter: 'isFile',
+        },
+        other: {
+            expand: true,
+            src: ['./bower_components/bootstrap-datetimepicker/src/js/*'],
+            dest: './js/',
             flatten: true,
             filter: 'isFile',
         },

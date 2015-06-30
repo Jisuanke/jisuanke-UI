@@ -42,7 +42,7 @@
         "tests"
     ],
     "dependencies": {
-        "fontawesome": "^4.3.0"
-
+        "fontawesome": "^4.3.0",
+        "bootstrap-datetimepicker": "git://github.com/Eonasdan/bootstrap-datetimepicker.git#^4.14.30"
     }
 }
