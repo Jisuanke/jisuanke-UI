@@ -2,6 +2,8 @@
 // -------------------------
 
 .#{$fa-css-prefix} {
+  width: (18em / 14);
+  text-align: center;
   display: inline-block;
   font: normal normal normal #{$fa-font-size-base}/1 FontAwesome; // shortening font declaration
   font-size: inherit; // can't have font-size inherit on line above, so need to override
