@@ -30,10 +30,7 @@ module.exports = function(grunt) {
 		    ' */\n',
 
     clean:  {
-        fontFolder:'./fonts/',
         dist: ['<%= meta.defaultPath %>/css/'],
-        datetime: './js/bootstrap-datetimepicker.js',
-        datetimeMin: './js/bootstrap-datetimepicker.min.js'
     },
 
     copy: {
