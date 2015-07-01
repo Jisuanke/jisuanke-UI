@@ -282,6 +282,7 @@
 .bootstrap-datetimepicker-widget td.second:hover,
 .bootstrap-datetimepicker-widget .btn:hover{
     cursor: pointer;
+    color:#4caf50;
 }
 .bootstrap-datetimepicker-widget td.old,
 .bootstrap-datetimepicker-widget td.new {
@@ -302,8 +303,7 @@
 }
 .bootstrap-datetimepicker-widget td.active,
 .bootstrap-datetimepicker-widget td.active:hover {
-    background-color: #ffffff;
-
+    background-color: #4caf50;
 }
 .bootstrap-datetimepicker-widget td.active.today:before {
     border-bottom-color: #fff;
@@ -330,9 +330,10 @@
 }
 .bootstrap-datetimepicker-widget td span:hover { /*time icon*/
     /*background: #eeeeee;*/
+    color:#4caf50;
 }
 .bootstrap-datetimepicker-widget td span.active {
-    background-color: #ffffff;
+    background-color:#4caf50;
 }
 
 .bootstrap-datetimepicker-widget td span.old {
