@@ -235,7 +235,7 @@ $navbar-inverse-background-color:            $garlic-dark !default;
           & .disabled a:hover,
           & .disabled a:focus {
               color: lighten($navbar-inverse-background-color, 55%);
-              cursor: default;
+              cursor: no-drop;
           }
           & .divider {
               background-color: lighten($navbar-inverse-background-color, 55%);
