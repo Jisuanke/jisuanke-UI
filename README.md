@@ -18,4 +18,4 @@
 
 ## LICENSE
 
-Bootflat is licensed under the MIT Open Source license. For more information, please see the LICENSE file in this repository.
+Jisuanke-UI is licensed under the MIT Open Source license. For more information, please see the LICENSE file in this repository.
