@@ -2883,7 +2883,7 @@
 .input-group-addon {
   color: #fff;
   background-color: #aab2bd;
-  border-color: #96a0ad;
+  border-color: #aab2bd;
   }
 .input-group-addon .radio, .input-group-addon .checkbox {
   margin: -3px 0 -4px !important;
@@ -3910,7 +3910,7 @@ th {
   }
 .navbar-inverse .dropdown-menu .disabled a, .navbar-inverse .dropdown-menu .disabled a:hover, .navbar-inverse .dropdown-menu .disabled a:focus {
   color: white;
-  cursor: default;
+  cursor: no-drop;
   }
 .navbar-inverse .dropdown-menu .divider {
   background-color: white;
