@@ -5137,6 +5137,7 @@ button.close {
   transition: transform 0.3s ease-out;
 }
 .modal.in .modal-dialog {
+  z-index: 100000000;
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   -o-transform: translate(0, 0);
@@ -5169,7 +5170,7 @@ button.close {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1040;
+  z-index: 100000000;
   background-color: #000000;
 }
 .modal-backdrop.fade {
