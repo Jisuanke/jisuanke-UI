@@ -4120,6 +4120,9 @@ a.list-group-item-danger.active, a.list-group-item-danger:hover, a.list-group-it
  * modal
  * --------------------------------------------------
  */
+.modal-backdrop {
+  z-index: 1040;
+  }
 .modal-content {
   color: #607d8b;
   border: none;
