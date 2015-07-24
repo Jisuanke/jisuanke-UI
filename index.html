@@ -28,10 +28,8 @@
             float: left;
             min-height: 200px;
         }
-
     </style>
 </head>
-
 <body style="background-color: #f1f2f6">
     <div class="docs-header">
         <div class="topic">
@@ -51,7 +49,6 @@
     </div>
     </div>
     <div class="container documents">
-
         <div class="example">
             <h2 class="example-title">
                 计蒜客色板
@@ -345,6 +342,17 @@
                                 </p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="example">
+            <h2 class="example-title">
+                choice
+            </h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div data-option='choice'>
                     </div>
                 </div>
             </div>
@@ -1625,6 +1633,22 @@
                 </span>
             </h2>
             <div class="row">
+                <div class="col-sm-10">
+                    <div class="chosen-container chosen-container-multi" style="width: 100%;" title="">
+                        <ul class="chosen-choices">
+                            <li class="search-choice">
+                                <span>
+                                    三
+                                </span>
+                                <a class="search-choice-close" data-option-array-index="2"></a>
+                            </li>
+
+                            <li class="search-field">
+                                <input type="text" placeholder="请输入标签" autocomplete="off">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="col-md-3">
                     <select name="selecter_basic" class="selecter_1">
                         <optgroup label="Group 一">
@@ -4405,6 +4429,8 @@
     <script>
         /*$.jstree.defaults.core.themes.responsive = true;*/
         $(function() {
+            $.tagInput();
+            $('[data-option="choice"]').optionList({ num: 5});
             $(window).resize(function() {
                 var h = Math.max($(window).height() - 0, 420);
                 $('#container, #data, #tree, #data .content').height(h).filter('.default').css('lineHeight', h + 'px');
