@@ -47,6 +47,10 @@
   .line-l{
     line-height: 35px !important;
   }
+  .jsk-text-wrap{
+    word-wrap: break-word;
+　　word-break: normal;
+  }
   .jsk-text-truncate { /* 文字截断 */
     word-wrap: normal; /* for IE */
     text-overflow: ellipsis;
@@ -79,7 +83,30 @@
     line-height: 27px;
     padding-bottom: 7px;
   }
-  .jsk-
+  .top-radius-g{
+    @include radius($type: border-radius, $value: 6px 6px 0 0);
+  }
+  .top-radius-x{
+    @include radius($type: border-radius, $value: 4px 4px 0 0);
+  }
+   .radius-g{
+    @include radius($type: border-radius, $value: 6px);
+  }
+  .radius-x{
+    @include radius($type: border-radius, $value: 4px);
+  }
+  .left-radius-g{
+    @include radius($type: border-radius, $value: 6px 0 0 6px);
+  }
+  .left-radius-x{
+    @include radius($type: border-radius, $value: 4px 0 0 4px);
+  }
+  .right-radius-g{
+    @include radius($type: border-radius, $value: 0 6px 6px 0);
+  }
+  .right-radius-x{
+    @include radius($type: border-radius, $value: 4px 0 0 4px);
+  }
   .jsk-block {
     display: block !important;
   }

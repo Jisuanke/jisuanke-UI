@@ -1,0 +1,73 @@
+    $focus-blue         :               #3bb4f2 !default;
+    $badge-position     :               10px !default;
+
+    $focus-shadow       :               0 0 5px rgba(0,0,0,.3) !default;
+    $optios-list-shadow :               0 1px 2px rgba(0, 0, 0, .2) !default;
+
+@include exports("options-list") {
+    .option-list{
+        background-color: $white;
+        box-shadow: $optios-list-shadow;
+        & .check, & .add{
+            cursor: pointer;
+            width: 1%;
+            white-space: nowrap;
+            vertical-align: middle;
+            display: table-cell;
+            padding: 6px 12px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1;
+            color: $mushroom-light;
+            text-align: center;
+            background-color: $lightgray-dark;
+        }
+        .add.disabled{
+            cursor: no-drop;
+        }
+        .header{
+            padding-bottom: 10px;
+            background-color:  $lightgray-light;
+            display: table;
+            border-bottom: 1px solid $lightgray-dark;
+            input{
+                color: $darkgray-dark;
+                border: none;
+                border-radius: 0;
+                &:focus{
+                    border: 1px solid $focus-blue;
+                    box-shadow: $focus-shadow;
+                }
+            }
+        }
+        label {
+            display: inline;
+        }
+        .checkbox{
+            border-bottom: 1px solid $lightgray-dark;
+            margin: 0;
+            font-size: 16px;
+            padding: 7px 45px;
+            &:last-child{
+                border-bottom:none;
+            }
+            .badge{
+                cursor: pointer;
+                position: absolute;
+                right: $badge-position;
+                top: $badge-position;
+                width: 35px;
+            }
+            .checked{
+                color: $grass-dark;
+                position: absolute;
+                left: $badge-position;
+                top: $badge-position;
+            }
+        }
+        .hint label{
+            text-align: center;
+            color: $lightgray-dark;
+        }
+    }
+}
