@@ -41,7 +41,8 @@
             }
         }
         label {
-            display: inline;
+            display: inline-block;
+            line-height: 27px;
         }
         .checkbox{
             border-bottom: 1px solid $lightgray-dark;

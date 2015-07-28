@@ -32,6 +32,15 @@
   .no-margin{
     margin: 0 !important;
   }
+  .margin-bottom-g{
+    margin-bottom: 30px !important;
+  }
+  .margin-bottom-m{
+    margin-bottom: 20px !important;
+  }
+  .margin-bottom-l{
+    margin-bottom: 15px !important;
+  }
   .height-g{
     height: 100%;
   }
@@ -47,7 +56,7 @@
   .line-l{
     line-height: 35px !important;
   }
-  .jsk-text-wrap{
+  .jsk-text-wrap{ /* 自动换行 */
     word-wrap: break-word;
 　　word-break: normal;
   }
@@ -58,19 +67,19 @@
     overflow: hidden;
   }
   .font-size-xxl{ /* 字体大小 */
-    font-size: 42px;
+    font-size: 42px !important;
   }
   .font-size-xl{
-    font-size: 32px;
+    font-size: 32px !important;
   }
   .font-size-lg{
-    font-size: 24px;
+    font-size: 24px !important;
   }
   .font-size-md{
-    font-size: 18px;
+    font-size: 18px !important;
   }
   .font-size-default{
-    font-size: 16px;
+    font-size: 16px !important;
   }
   .font-size-sm{
     font-size: 14px;
