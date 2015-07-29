@@ -41,16 +41,15 @@
             }
         }
         label {
-            display: inline;
+            display: inline-block;
+            line-height: 27px;
         }
         .checkbox{
             border-bottom: 1px solid $lightgray-dark;
             margin: 0;
             font-size: 16px;
             padding: 7px 45px;
-            &:last-child{
-                border-bottom:none;
-            }
+            &:last-child{border-bottom:none;}
             .badge{
                 cursor: pointer;
                 position: absolute;

@@ -63,6 +63,7 @@ module.exports = function(grunt) {
             'js/bootstrap.min.js',
             '<%= meta.defaultPath %>/js/icheck.min.js',
             '<%= meta.defaultPath %>/js/optionList.js',
+            '<%= meta.defaultPath %>/js/tagInput.js',
             '<%= meta.defaultPath %>/js/jquery.fs.stepper.min.js',
             '<%= meta.defaultPath %>/js/amazeui.chosen.min.js',
             'js/application.js',

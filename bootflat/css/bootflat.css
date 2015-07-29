@@ -41,6 +41,18 @@ button {
   margin: 0 !important;
   }
 
+.margin-bottom-g {
+  margin-bottom: 30px !important;
+  }
+
+.margin-bottom-m {
+  margin-bottom: 20px !important;
+  }
+
+.margin-bottom-l {
+  margin-bottom: 15px !important;
+  }
+
 .height-g {
   height: 100%;
   }
@@ -62,6 +74,7 @@ button {
   }
 
 .jsk-text-wrap {
+  /* 自动换行 */
   word-wrap: break-word;
 
   　　word-break: normal;
@@ -78,23 +91,23 @@ button {
 
 .font-size-xxl {
   /* 字体大小 */
-  font-size: 42px;
+  font-size: 42px !important;
   }
 
 .font-size-xl {
-  font-size: 32px;
+  font-size: 32px !important;
   }
 
 .font-size-lg {
-  font-size: 24px;
+  font-size: 24px !important;
   }
 
 .font-size-md {
-  font-size: 18px;
+  font-size: 18px !important;
   }
 
 .font-size-default {
-  font-size: 16px;
+  font-size: 16px !important;
   }
 
 .font-size-sm {
@@ -5509,7 +5522,8 @@ a.list-group-item-danger.active, a.list-group-item-danger:hover, a.list-group-it
   box-shadow: 0 0 5px rgba(0, 0, 0, .3);
   }
 .option-list label {
-  display: inline;
+  display: inline-block;
+  line-height: 27px;
   }
 .option-list .checkbox {
   padding: 7px 45px;
