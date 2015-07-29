@@ -7,19 +7,23 @@
   input,
   textarea,
   select,
-  button { /* 字体优化 */
+  button {
+    /* 字体优化 */
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -moz-font-feature-settings: "liga", "kern"; /* 字距调整 标准连写 */
   }
-  .font-sans-serif { /* 非衬线字体 */
+  .font-sans-serif {
+    /* 非衬线字体 */
     font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", sans-serif;
   }
-  .font-serif {/* 衬线字体 */
+  .font-serif {
+    /* 衬线字体 */
     font-family: Georgia, "Times New Roman", Times, SimSun, "FontAwesome", serif;
   }
-  .font-kai {/* 数字英文衬线字体 中文开题*/
+  .font-kai {
+     /* 数字英文衬线字体 中文开题*/
     font-family: Georgia, "Times New Roman", Times, Kai, "Kaiti SC", KaiTi, BiauKai, "FontAwesome", serif;
   }
   .font-monospace {/* 等宽字体 */
@@ -29,91 +33,95 @@
   .no-padding{
     padding: 0 !important;
   }
-  .no-margin{
+  .no-margin {
     margin: 0 !important;
   }
-  .margin-bottom-g{
+  .margin-bottom-g {
     margin-bottom: 30px !important;
   }
-  .margin-bottom-m{
+  .margin-bottom-m {
     margin-bottom: 20px !important;
   }
-  .margin-bottom-l{
+  .margin-bottom-l {
     margin-bottom: 15px !important;
   }
-  .height-g{
+  .height-g {
     height: 100%;
   }
-  .width-g{
+  .width-g {
     width: 100%;
   }
-  .line-g{
+  .line-g {
     line-height: 45px !important;
   }
-  .line-m{
+  .line-m {
     line-height: 40px !important;
   }
-  .line-l{
+  .line-l {
     line-height: 35px !important;
   }
-  .jsk-text-wrap{ /* 自动换行 */
+  .jsk-text-wrap{
+    /* 自动换行 */
     word-wrap: break-word;
 　　word-break: normal;
   }
-  .jsk-text-truncate { /* 文字截断 */
+  .jsk-text-truncate {
+    /* 文字截断 */
     word-wrap: normal; /* for IE */
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
   }
-  .font-size-xxl{ /* 字体大小 */
+  .font-size-xxl {
+    /* 字体大小 */
     font-size: 42px !important;
   }
-  .font-size-xl{
+  .font-size-xl {
     font-size: 32px !important;
   }
-  .font-size-lg{
+  .font-size-lg {
     font-size: 24px !important;
   }
-  .font-size-md{
+  .font-size-md {
     font-size: 18px !important;
   }
   .font-size-default{
     font-size: 16px !important;
   }
-  .font-size-sm{
+  .font-size-sm {
     font-size: 14px;
   }
-  .font-size-xs{
+  .font-size-xs {
     font-size: 12px;
   }
-  .p-common{ /* 通用p */
+  .p-common {
+    /* 通用p */
     font-size: 16px;
     line-height: 27px;
     padding-bottom: 7px;
   }
-  .top-radius-g{
+  .top-radius-g {
     @include radius($type: border-radius, $value: 6px 6px 0 0);
   }
-  .top-radius-x{
+  .top-radius-x {
     @include radius($type: border-radius, $value: 4px 4px 0 0);
   }
-   .radius-g{
+   .radius-g {
     @include radius($type: border-radius, $value: 6px);
   }
-  .radius-x{
+  .radius-x {
     @include radius($type: border-radius, $value: 4px);
   }
-  .left-radius-g{
+  .left-radius-g {
     @include radius($type: border-radius, $value: 6px 0 0 6px);
   }
-  .left-radius-x{
+  .left-radius-x {
     @include radius($type: border-radius, $value: 4px 0 0 4px);
   }
-  .right-radius-g{
+  .right-radius-g {
     @include radius($type: border-radius, $value: 0 6px 6px 0);
   }
-  .right-radius-x{
+  .right-radius-x {
     @include radius($type: border-radius, $value: 4px 0 0 4px);
   }
   .jsk-block {
@@ -125,11 +133,11 @@
   .jsk-inline-block {
     display: inline-block !important;
   }
-  .jsk-hide{
+  .jsk-hide {
     display: none !important;
     visibility: hidden !important;
   }
-  .jsk-margin-horizontal{
+  .jsk-margin-horizontal {
     margin: 0 -15px;
   }
   /* 等分 */

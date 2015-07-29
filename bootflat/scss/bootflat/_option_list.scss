@@ -49,9 +49,7 @@
             margin: 0;
             font-size: 16px;
             padding: 7px 45px;
-            &:last-child{
-                border-bottom:none;
-            }
+            &:last-child{border-bottom:none;}
             .badge{
                 cursor: pointer;
                 position: absolute;
