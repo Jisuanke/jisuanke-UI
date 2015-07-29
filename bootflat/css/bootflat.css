@@ -125,6 +125,14 @@ button {
   line-height: 27px;
   }
 
+.cursor-disable {
+  cursor: no-drop !important;
+  }
+
+.cursor-pointer {
+  cursor: pointer !important;
+  }
+
 .top-radius-g {
           border-radius: 6px 6px 0 0;
 
