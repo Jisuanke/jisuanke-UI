@@ -1634,12 +1634,10 @@
             </h2>
             <div class="row">
                 <div class="col-sm-10">
-                    <div class="chosen-container chosen-container-multi" style="width: 100%;" title="">
+                    <div class="chosen-container chosen-container-multi tag-input" style="width: 100%;" title="">
                         <ul class="chosen-choices">
                             <li class="search-choice">
-                                <span>
-                                    三
-                                </span>
+                                <span>三</span>
                                 <a class="search-choice-close" data-option-array-index="2"></a>
                             </li>
 
@@ -4429,7 +4427,7 @@
     <script>
         /*$.jstree.defaults.core.themes.responsive = true;*/
         $(function() {
-            $.tagInput();
+            $('.tag-input').tagInput({'tags' : [1,2]}).getValue();
             $('[data-option="choice"]').optionList({ num: 5});
             $(window).resize(function() {
                 var h = Math.max($(window).height() - 0, 420);
