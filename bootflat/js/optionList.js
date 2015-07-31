@@ -14,18 +14,18 @@
         var template ={
             header: '<div class="header"><span class="check"><input type="checkbox"></span><input class="form-control" placeholder="您可以在这里撰写新选项" ><span class="add">添加</span></div>',
             hint: '<div class="checkbox hint"><label>暂时没有选项，请添加！</label></div>',
-            checkbox: '<div class="checkbox"><span class="checked">[ <i class="fa fa-check"></i> ]</span><label class="jsk-text-wrap"></label><span class="badge badge-danger">X</span></div>'
+            checkbox: '<div class="checkbox"><span class="checked">[ <i class="fa fa-check"></i> ]</span><label class="jsk-text-wrap"></label><span class="badge badge-danger" data-option="choice-close">X</span></div>'
         };
         var _this = this.element;
         _this.addClass('option-list');
         _this.html(template.header + template.hint);
         var _checked = _this.find('.header input:eq(0)');
         var _add = _this.find('.header .add:eq(0)');
-        _this.find('.badge-danger').on('click', function(){
+        $(document).on('click', '[data-option="choice-close"]', function(){
             $(this).parent().remove();
             if(_this.find('.checkbox').length <= 0){_this.append(template.hint);}
             if(_add.hasClass('disabled')){_add.removeClass('disabled')}
-        })
+        });
         for (i in this.options.choices){
             if (_this.find('.hint').length > 0 && this.options.choices[i].length > 0)
                 _this.find('.hint').remove();
