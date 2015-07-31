@@ -4428,7 +4428,7 @@
         /*$.jstree.defaults.core.themes.responsive = true;*/
         $(function() {
             $('.tag-input').tagInput({'tags' : [1,2]}).getValue();
-            $('[data-option="choice"]').optionList({ num: 5, wrong: [1,2,3], correct: [5,6]});
+            $('[data-option="choice"]').optionList({ num: 5, choices: {correct: [1,2,3], wrong: [5,6]}});
             $(window).resize(function() {
                 var h = Math.max($(window).height() - 0, 420);
                 $('#container, #data, #tree, #data .content').height(h).filter('.default').css('lineHeight', h + 'px');

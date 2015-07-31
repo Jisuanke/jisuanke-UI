@@ -27,17 +27,16 @@
             if(_add.hasClass('disabled')){_add.removeClass('disabled')}
         })
         for (i in this.options.choices){
-            if (_this.find('.hint').length > 0 && this.options[i].length > 0)
+            if (_this.find('.hint').length > 0 && this.options.choices[i].length > 0)
                 _this.find('.hint').remove();
-            for (j = 0; j < this.options[i].length; j++) {
+            for (j = 0; j < this.options.choices[i].length; j++) {
                 _this.append(template.checkbox);
                 _this.find('.checkbox:last').addClass(i)
-                     .children('label').text(this.options[i][j])
+                     .children('label').text(this.options.choices[i][j])
                 if (i === 'wrong')
                     _this.find('.checkbox:last .checked').remove();
             }
         }
-
         var fn = function(){
             var _value = _this.find('.header > input:eq(0)').val().trim();
             if(_value == ''){
