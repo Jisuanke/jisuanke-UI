@@ -37,10 +37,11 @@
                     _this.find('.checkbox:last .checked').remove();
             }
         }
-        var fn = function(){
+        var fn = function(obj){
             var _value = _this.find('.header > input:eq(0)').val().trim();
             if(_value == ''){
                 alert('输入内容为空');
+                obj.trigger('addAjax');
                 return;
             }
             _this.find('.hint').remove();
@@ -58,7 +59,7 @@
                 _add.addClass('disabled');
                 return;
             }
-            fn()
+            fn($(this));
         });
         return this;
     }
