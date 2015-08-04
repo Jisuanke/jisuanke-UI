@@ -41,7 +41,6 @@
             var _value = _this.find('.header > input:eq(0)').val().trim();
             if(_value == ''){
                 alert('输入内容为空');
-                obj.trigger('addAjax');
                 return;
             }
             _this.find('.hint').remove();
@@ -53,6 +52,7 @@
             }else{
                 _this.find('.checkbox:last').addClass('correct')
             }
+            obj.trigger('addAjax');
         }
         _add.on('click', function(e){
             if(_this.find('.checkbox').length >= options.num){

@@ -4429,6 +4429,9 @@
         $(function() {
             $('.tag-input').tagInput({'tags' : [1,2]}).getValue();
             $('[data-option="choice"]').optionList({ num: 5, choices: {correct: [2,3], wrong: [5,6]}});
+            $('[data-option="choice"] .add').on('addAjax',function(){
+                alert(1);
+            });
             $(window).resize(function() {
                 var h = Math.max($(window).height() - 0, 420);
                 $('#container, #data, #tree, #data .content').height(h).filter('.default').css('lineHeight', h + 'px');
