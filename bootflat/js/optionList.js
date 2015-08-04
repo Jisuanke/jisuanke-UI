@@ -22,9 +22,10 @@
         var _checked = _this.find('.header input:eq(0)');
         var _add = _this.find('.header .add:eq(0)');
         $(document).on('click', '[data-option="choice-close"]', function(){
+            $(this).trigger('option-list-delete');
             $(this).parent().remove();
-            if(_this.find('.checkbox').length <= 0){_this.append(template.hint);}
-            if(_add.hasClass('disabled')){_add.removeClass('disabled')}
+            if(_this.find('.checkbox').length <= 0){_this.append(template.hint)};
+            if(_add.hasClass('disabled')){_add.removeClass('disabled')};
         });
         for (i in this.options.choices){
             if (_this.find('.hint').length > 0 && this.options.choices[i].length > 0)
@@ -52,7 +53,7 @@
             }else{
                 _this.find('.checkbox:last').addClass('correct')
             }
-            obj.trigger('addAjax');
+            obj.trigger('option-list-add');
         }
         _add.on('click', function(e){
             if(_this.find('.checkbox').length >= options.num){

@@ -4429,8 +4429,11 @@
         $(function() {
             $('.tag-input').tagInput({'tags' : [1,2]}).getValue();
             $('[data-option="choice"]').optionList({ num: 5, choices: {correct: [2,3], wrong: [5,6]}});
-            $('[data-option="choice"] .add').on('addAjax',function(){
-                alert(1);
+            $('[data-option="choice"] .add').on('option-list-add',function(){
+                alert('option-list-add');
+            });
+            $(document).on('option-list-delete', '[data-option="choice-close"]', function(){
+                alert('option-list-delete');
             });
             $(window).resize(function() {
                 var h = Math.max($(window).height() - 0, 420);
