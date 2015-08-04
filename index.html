@@ -4428,7 +4428,7 @@
         /*$.jstree.defaults.core.themes.responsive = true;*/
         $(function() {
             $('.tag-input').tagInput({'tags' : [1,2]}).getValue();
-            $('[data-option="choice"]').optionList({ num: 5, choices: {correct: [2,3], wrong: [5,6]}});
+            $('[data-option="choice"]').optionList({ num: 5, choices: {correct: {1:'123','1231':'123'}, wrong: {1:'123','1231':'123'}}});
             $('[data-option="choice"] .add').on('option-list-add',function(){
                 alert('option-list-add');
             });

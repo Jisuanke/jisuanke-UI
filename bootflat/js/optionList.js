@@ -30,10 +30,10 @@
         for (i in this.options.choices){
             if (_this.find('.hint').length > 0 && this.options.choices[i].length > 0)
                 _this.find('.hint').remove();
-            for (j = 0; j < this.options.choices[i].length; j++) {
+            for (j in this.options.choices[i]) {
                 _this.append(template.checkbox);
                 _this.find('.checkbox:last').addClass(i)
-                     .children('label').text(this.options.choices[i][j])
+                _this.find('.checkbox:last').children('label').text(this.options.choices[i][j]).attr('data-id',j);
                 if (i === 'wrong')
                     _this.find('.checkbox:last .checked').remove();
             }
