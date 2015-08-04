@@ -28,9 +28,9 @@
             if(_add.hasClass('disabled')){_add.removeClass('disabled')};
         });
         for (i in this.options.choices){
-            if (_this.find('.hint').length > 0 && this.options.choices[i].length > 0)
-                _this.find('.hint').remove();
             for (j in this.options.choices[i]) {
+                if (_this.find('.hint').length > 0)
+                    _this.find('.hint').remove();
                 _this.append(template.checkbox);
                 _this.find('.checkbox:last').addClass(i)
                 _this.find('.checkbox:last').children('label').text(this.options.choices[i][j]).attr('data-id',j);
