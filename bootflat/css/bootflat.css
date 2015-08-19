@@ -89,6 +89,16 @@ button {
   white-space: nowrap;
   }
 
+/* 反转 */
+.jsk-reverse {
+  /*IE*/
+  filter: FlipH;
+  -webkit-transform: scaleX(-1);
+     -moz-transform: scaleX(-1);
+       -o-transform: scaleX(-1);
+          transform: scaleX(-1);
+  }
+
 .font-size-xxl {
   /* 字体大小 */
   font-size: 42px !important;

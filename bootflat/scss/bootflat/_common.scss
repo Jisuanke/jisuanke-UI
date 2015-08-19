@@ -72,6 +72,15 @@
     white-space: nowrap;
     overflow: hidden;
   }
+  /* 反转 */
+  .jsk-reverse{
+    -moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1);
+    /*IE*/
+    filter:FlipH;
+  }
   .font-size-xxl {
     /* 字体大小 */
     font-size: 42px !important;

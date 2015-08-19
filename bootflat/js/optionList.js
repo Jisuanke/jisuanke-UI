@@ -55,6 +55,12 @@
             }
             obj.trigger('option-list-add');
         }
+        _input = _this.find("input")
+        _input.keyup(function(e){
+           if(e.keyCode == 13 && $(this).val() !== ''){
+                _add.click()
+            }
+        })
         _add.on('click', function(e){
             if(_this.find('.checkbox').length >= options.num){
                 _add.addClass('disabled');
