@@ -43,8 +43,8 @@ module.exports = function(grunt) {
         },
         other: {
             expand: true,
-            src: ['./bower_components/bootstrap-datetimepicker/src/js/*', './bower_components/bootstrap-datetimepicker/build/js/*'],
-            dest: './js/',
+            src: ['./bower_components/fontawesome/scss/*'],
+            dest: './bootflat/scss/bootflat/scss/',
             flatten: true,
             filter: 'isFile',
         },
@@ -227,7 +227,7 @@ module.exports = function(grunt) {
   grunt.registerTask('task-css', ['sass', 'csscomb', 'cssmin']);
   grunt.registerTask('task-html', ['htmlmin']);
   grunt.registerTask('task-js', ['uglify']);
-  grunt.registerTask('task', ['clean', 'task-css', 'task-js','copy']);
+  grunt.registerTask('task', ['clean', 'copy', 'task-css', 'task-js']);
   grunt.registerTask('build', ['task']);
   grunt.registerTask('default', ['task']);
   grunt.registerTask('check-call', ['csslint', 'validation', 'jshint']);
