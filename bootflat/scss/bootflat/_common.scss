@@ -1,4 +1,7 @@
-
+// Variables
+//------------------------------------------------------
+$shadow-s:                  inset 0 1px 2px rgba(0, 0, 0, .125) !default;
+$shadow-l:                  inset 0 2px 3px rgba(0, 0, 0, .2) !default;
 // Exports
 //------------------------------------------------------
 
@@ -115,29 +118,51 @@
   .cursor-pointer{
     cursor: pointer !important;
   }
+  .jsk-shadow-s{
+    @include box-shadow($value: $shadow-s);
+  }
+   .jsk-shadow-l{
+    @include box-shadow($value: $shadow-l);
+  }
   .top-radius-g {
     @include radius($type: border-radius, $value: 6px 6px 0 0);
+    overflow: hidden;
   }
   .top-radius-x {
     @include radius($type: border-radius, $value: 4px 4px 0 0);
+    overflow: hidden;
   }
-   .radius-g {
+  .bottom-radius-g {
+    @include radius($type: border-radius, $value: 0 0 6px 6px);
+    overflow: hidden;
+  }
+  .bottom-radius-x {
+    @include radius($type: border-radius, $value: 0 0 4px 4px);
+    overflow: hidden;
+  }
+  .radius-g {
     @include radius($type: border-radius, $value: 6px);
+    overflow: hidden;
   }
   .radius-x {
     @include radius($type: border-radius, $value: 4px);
+    overflow: hidden;
   }
   .left-radius-g {
     @include radius($type: border-radius, $value: 6px 0 0 6px);
+    overflow: hidden;
   }
   .left-radius-x {
     @include radius($type: border-radius, $value: 4px 0 0 4px);
+    overflow: hidden;
   }
   .right-radius-g {
     @include radius($type: border-radius, $value: 0 6px 6px 0);
+    overflow: hidden;
   }
   .right-radius-x {
     @include radius($type: border-radius, $value: 4px 0 0 4px);
+    overflow: hidden;
   }
   .jsk-block {
     display: block !important;

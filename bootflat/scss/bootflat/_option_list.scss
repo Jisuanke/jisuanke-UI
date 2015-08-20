@@ -1,8 +1,10 @@
-    $focus-blue         :               #3bb4f2 !default;
-    $badge-position     :               10px !default;
+ // Variables
+//------------------------------------------------------
+$focus-blue         :               #3bb4f2 !default;
+$badge-position     :               10px !default;
 
-    $focus-shadow       :               0 0 5px rgba(0,0,0,.3) !default;
-    $optios-list-shadow :               0 1px 2px rgba(0, 0, 0, .2) !default;
+$focus-shadow       :               0 0 5px rgba(0,0,0,.3) !default;
+$optios-list-shadow :               0 1px 2px rgba(0, 0, 0, .2) !default;
 
 @include exports("options-list") {
     .option-list{
