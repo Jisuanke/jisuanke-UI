@@ -155,8 +155,11 @@ button {
           box-shadow: inset 0 2px 3px rgba(0, 0, 0, .2);
   }
 
-.top-radius-g {
+.jsk-overflow-hidden {
   overflow: hidden;
+  }
+
+.top-radius-g {
           border-radius: 6px 6px 0 0;
 
   -webkit-border-radius: 6px 6px 0 0;
@@ -164,7 +167,6 @@ button {
   }
 
 .top-radius-x {
-  overflow: hidden;
           border-radius: 4px 4px 0 0;
 
   -webkit-border-radius: 4px 4px 0 0;
@@ -172,7 +174,6 @@ button {
   }
 
 .bottom-radius-g {
-  overflow: hidden;
           border-radius: 0 0 6px 6px;
 
   -webkit-border-radius: 0 0 6px 6px;
@@ -180,7 +181,6 @@ button {
   }
 
 .bottom-radius-x {
-  overflow: hidden;
           border-radius: 0 0 4px 4px;
 
   -webkit-border-radius: 0 0 4px 4px;
@@ -188,7 +188,6 @@ button {
   }
 
 .radius-g {
-  overflow: hidden;
           border-radius: 6px;
 
   -webkit-border-radius: 6px;
@@ -196,7 +195,6 @@ button {
   }
 
 .radius-x {
-  overflow: hidden;
           border-radius: 4px;
 
   -webkit-border-radius: 4px;
@@ -204,7 +202,6 @@ button {
   }
 
 .left-radius-g {
-  overflow: hidden;
           border-radius: 6px 0 0 6px;
 
   -webkit-border-radius: 6px 0 0 6px;
@@ -212,7 +209,6 @@ button {
   }
 
 .left-radius-x {
-  overflow: hidden;
           border-radius: 4px 0 0 4px;
 
   -webkit-border-radius: 4px 0 0 4px;
@@ -220,7 +216,6 @@ button {
   }
 
 .right-radius-g {
-  overflow: hidden;
           border-radius: 0 6px 6px 0;
 
   -webkit-border-radius: 0 6px 6px 0;
@@ -228,7 +223,6 @@ button {
   }
 
 .right-radius-x {
-  overflow: hidden;
           border-radius: 4px 0 0 4px;
 
   -webkit-border-radius: 4px 0 0 4px;
