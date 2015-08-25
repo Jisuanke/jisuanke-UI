@@ -17,6 +17,9 @@ $shadow-l:                  inset 0 2px 3px rgba(0, 0, 0, .2) !default;
     -moz-osx-font-smoothing: grayscale;
     -moz-font-feature-settings: "liga", "kern"; /* 字距调整 标准连写 */
   }
+  a:hover{
+    text-decoration: none;
+  }
   .font-sans-serif {
     /* 非衬线字体 */
     font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", sans-serif;
@@ -62,6 +65,16 @@ $shadow-l:                  inset 0 2px 3px rgba(0, 0, 0, .2) !default;
   }
   .line-l {
     line-height: 35px !important;
+  }
+  .jsk-from-file{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    height: 100%;
   }
   .jsk-text-wrap{
     /* 自动换行 */
