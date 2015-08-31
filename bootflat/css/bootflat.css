@@ -136,11 +136,11 @@ a:hover {
   }
 
 .font-size-sm {
-  font-size: 14px;
+  font-size: 14px !important;
   }
 
 .font-size-xs {
-  font-size: 12px;
+  font-size: 12px !important;
   }
 
 .p-common {
