@@ -44,6 +44,12 @@
                 alert('输入内容为空');
                 return;
             }
+            for(var i = 0; i < _this.find('.checkbox').length; i++){
+                if(_value === _this.find('.checkbox:eq(' + i + ') label').text()){
+                    alert("选项有重复！");
+                    return
+                }
+            }
             _this.find('.hint').remove();
             _this.append(template.checkbox);
             _this.find('.checkbox:last label').text(_value);
@@ -51,8 +57,10 @@
                 _this.find('.checkbox:last').addClass('wrong');
                 _this.find('.checkbox:last .checked').remove();
             }else{
-                _this.find('.checkbox:last').addClass('correct')
+                _checked.attr('checked', false);
+                _this.find('.checkbox:last').addClass('correct');
             }
+            _this.find('.header > input:eq(0)').val('')
             obj.trigger('option-list-add');
         }
         _input = _this.find("input")

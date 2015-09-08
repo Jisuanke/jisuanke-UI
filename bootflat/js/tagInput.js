@@ -6,17 +6,36 @@
             'tags' : []
         };
         this.options = $.extend({}, this.defaults, options);
+        _tag_input = this.element.find(".search-field input[type='text']");
         for(var i = 0; i < this.options.tags.length; i++){
             this.element.find('.search-field').before("<li class='search-choice'><span>" + this.options.tags[i] + "</span><a class='search-choice-close'></a></li>");
         }
-        this.element.find(".search-field input[type='text']").keyup(function(e){
-           if(e.keyCode == 13 && $(this).val() !== ''){
-                _tag = $(this).val().trim().replace(/,+|\s+|,\s+/g, ' ').split(' ');
-                for(var i = 0 ; i < _tag.length; i++){
-                    if (_tag[i] == '') { $(this).val('');return }
-                    $(this).parent().before("<li class='search-choice'><span>" + _tag[i] + "</span><a class='search-choice-close'></a></li>")
-                }
-                $(this).val('');
+        creatTags = function(obj){
+            _this = obj;
+            _tag = _this.val().trim()
+                .replace(/,+/g, ' ')
+                .replace(/，+/g, ' ')
+                .replace(/\s+/g, ' ')
+                .split(' ');
+            for(var i = 0 ; i < _tag.length; i++){
+                if (_tag[i] == '') { _this.val('');return }
+                _this.parent().before("<li class='search-choice'><span>" + _tag[i] + "</span><a class='search-choice-close'></a></li>")
+            }
+            _this.val('');
+        }
+        this.element.find(".chosen-choices").click(function(e){
+            if(! $(e.target).hasClass('search-choice')){
+                _tag_input.focus();
+            }
+        })
+        _tag_input.keyup(function(e){
+           if(e.keyCode == 13 && $(this).val() !== '' ){
+                creatTags($(this));
+            }
+        })
+        _tag_input.blur(function(){
+            if($(this).val() !== '' ){
+                creatTags($(this));
             }
         })
         _class = this.element.attr('class').split(' ').join('.');
