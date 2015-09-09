@@ -66,6 +66,9 @@ $shadow-l:                  inset 0 2px 3px rgba(0, 0, 0, .2) !default;
   .line-l {
     line-height: 35px !important;
   }
+  .jsk-from-file-parent{
+    position: relative;
+  }
   .jsk-from-file{
     position: absolute;
     left: 0;
