@@ -23,6 +23,7 @@
             }
             if(_me.getValue().length + _tag.length > _me.options.num ){
                 alert('关键字标签最多可以有' + _me.options.num + '个');
+                 _tag_input.val('');
                 return
             }
             for(var i = 0 ; i < _tag.length; i++){
