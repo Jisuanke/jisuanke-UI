@@ -21,7 +21,8 @@
                 .replace(/\s+/g, ' ')
                 .split(' ');
             }
-            if(_me.getValue().length + _tag.length > _me.options.num ){
+
+            if(_tag[0] !== '' && _me.getValue().length + _tag.length > _me.options.num ){
                 alert('关键字标签最多可以有' + _me.options.num + '个');
                  _tag_input.val('');
                 return
