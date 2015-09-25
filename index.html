@@ -4427,7 +4427,7 @@
     <script>
         /*$.jstree.defaults.core.themes.responsive = true;*/
         $(function() {
-            console.log($('.tag-input').tagInput({'repeat': false, 'num': 10}).getValue());
+            console.log($('.tag-input').tagInput({'tags':[1,2,3], 'repeat': false, 'num': 10}).getValue());
 
             $('[data-option="choice"]').optionList({ num: 5});
             $('[data-option="choice"] .add').on('option-list-add',function(){

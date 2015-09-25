@@ -10,20 +10,29 @@
         this.options = $.extend({}, this.defaults, options);
         _me = this;
         _tag_input = this.element.find(".search-field input[type='text']");
-        creatTags = function(obj){
+        setTag   = function(str){
+            _this.parent().before("<li class='search-choice'><span>" + str + "</span><a class='search-choice-close'></a></li>")
+        }
+        creatTags = function(obj, tags){
             _this = obj;
+            if(tags){
+                for(var i = 0 ; i < tags.length; i++){
+                    setTag(tags[i]);
+                }
+                return
+            }
             _tag = _this.val().trim()
             .replace(/,+/g, '')
             .replace(/，+/g, '')
             .replace(/\s+/g, '')
-
             if(_me.getValue().length + 1 > _me.options.num ){
-                alert('关键字标签最多可以有' + _me.options.num + '个');
+                if(_tag != ''){
+                    alert('关键字标签最多可以有' + _me.options.num + '个');
+                }
                  _tag_input.val('');
                 return
             }
             if (_tag == '') { _this.val('');return }
-
             if(_me.options.repeat == false){
                 for(var j = 0 ; j < _me.getValue().length ; j++){
                     if(_tag == _me.getValue()[j]){
@@ -33,11 +42,10 @@
                     }
                 }
             }
-            _this.parent().before("<li class='search-choice'><span>" + _tag + "</span><a class='search-choice-close'></a></li>")
-
+            setTag(_tag);
             _this.val('');
         }
-        creatTags(_tag_input);
+        creatTags(_tag_input, this.options.tags);
         this.element.find(".chosen-choices").click(function(e){
             if(! $(e.target).hasClass('search-choice')){
                 _tag_input.focus();
