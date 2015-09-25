@@ -5,8 +5,7 @@ var gulp = require('gulp');
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
     rename = require('gulp-rename'),
-
-var config = {
+    config = {
     bowerDir: 'bower_components/',
     defaultPath: 'bootflat/',
     fontsDir:'fonts/',
