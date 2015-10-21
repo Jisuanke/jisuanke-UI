@@ -37,14 +37,14 @@
             if (_me.options.isNaN) {
                 if(!isNaN(_tag)){
                     _tag_input.val('');
-                    alert("标签不允许出现纯数字");
+                    alert("标签不允许为纯数字");
                     return
                 }
             }
             if(_me.options.repeat == false){
                 for(var j = 0 ; j < _me.getValue().length ; j++){
                     if(_tag == _me.getValue()[j]){
-                        alert('存在重复关键字！');
+                        alert('存在重复关键字');
                         _tag_input.val('');
                         return
                     }
