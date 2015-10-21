@@ -3,9 +3,10 @@
         var options = options || {};
         this.element  = ele;
         this.defaults = {
-            'tags' : [],
+            'tags'   : [],
             'repeat' : false,
-            'num' : 3
+            'num'    : 3,
+            'isNaN'  :  false
         };
         this.options = $.extend({}, this.defaults, options);
         _me = this;
@@ -33,6 +34,13 @@
                 return
             }
             if (_tag == '') { _this.val('');return }
+            if (_me.options.isNaN) {
+                if(!isNaN(_tag)){
+                    _tag_input.val('');
+                    alert("标签不允许出现纯数字");
+                    return
+                }
+            }
             if(_me.options.repeat == false){
                 for(var j = 0 ; j < _me.getValue().length ; j++){
                     if(_tag == _me.getValue()[j]){
